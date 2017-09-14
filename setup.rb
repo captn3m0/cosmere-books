@@ -38,7 +38,7 @@ for i in 1..3
     start = ending = false
     page.children.each do |e|
         if e.name == 'h3'
-           e.name = 'h1' 
+           e.name = 'h1'
            start = true
         end
 

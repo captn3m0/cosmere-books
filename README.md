@@ -20,9 +20,8 @@ You can download sample files (Lorem Ipsum) from <http://ge.tt/8R61oXm2> to see 
 - (mobi only): `ebook-convert` (from calibre) available to generate the mobi file
 - (pdf) `wkhtmltopdf` for converting html to pdf
 - (pdf) `pdftk` to stitch the final PDF file
-- (pdf) `imagemagick` to convert jpg to PDF
 
-- The final 3 tools can be skipped if you don't care about the PDF generation.
+- The final 2 tools can be skipped if you don't care about the PDF generation.
 - You can also skip calibre if you only want the EPUB file.
 - Edit the last line in `setup.rb` to `:epub` / `:mobi`, `:pdf` to only trigger the specific builds
 

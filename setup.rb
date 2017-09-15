@@ -34,25 +34,26 @@ end
 # Now we have all the files
 html = ""
 for i in 1..(links.length)
-    page = Nokogiri::HTML(open("html/#{i}.html")).css('.entry-content')
-    start = ending = false
-    page.children.each do |e|
-        if e.name == 'h3'
-           e.name = 'h1'
-           start = true
-        end
+  page = Nokogiri::HTML(open("html/#{i}.html")).css('.entry-content')
+  start = ending = false
+  page.children.each do |e|
+      if e.name == 'h3'
+         e.name = 'h1'
+         start = true
+      end
 
-        if e.attribute('class') and e['class'].include? 'frontmatter' and start
-            ending = true
-        end
+      if e.attribute('class') and e['class'].include? 'frontmatter' and start
+          ending = true
+      end
 
-        if !start or ending
-            e.remove
-        end
-    end
-    html += page.inner_html
+      if !start or ending
+          e.remove
+      end
+  end
+  html += page.inner_html
+  url = links[i-1]
 
-    html += "<p>Visit <a href='#{url}'>tor.com</a> for discussion.</p>"
+  html += "<p>Visit <a href='#{url}'>tor.com</a> for discussion.</p>"
 end
 
 html += "<p>~fin\~<br>Next 3 chapters out on #{next_date.to_s}</p>"

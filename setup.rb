@@ -1,7 +1,7 @@
 require 'date'
 require 'fileutils'
 require 'nokogiri'
-
+require_relative './methods'
 FileUtils.mkdir_p("html")
 
 BASE = 'https://www.tor.com/2017/'
@@ -43,7 +43,7 @@ for i in 1..3
         end
 
         if e.attribute('class') and e['class'].include? 'frontmatter' and start
-            ending = true 
+            ending = true
         end
 
         if !start or ending
@@ -51,35 +51,13 @@ for i in 1..3
         end
     end
     html += page.inner_html
+
+    html += "<p>Visit <a href='#{url}'>tor.com</a> for discussion.</p>"
 end
 
 html += "<p>~fin\~<br>Next 3 chapters out on #{next_date.to_s}</p>"
 
-# Write it in the book
 File.open("Oathbringer.html", 'w') { |file| file.write(html) }
 puts "[html] Generated HTML file"
 
-# Convert it to epub
-`pandoc -S -o Oathbringer.epub --epub-metadata=metadata.xml --epub-cover-image=cover.jpg Oathbringer.html`
-puts "[epub] Generated EPUB file"
-
-# Convert epub to a mobi
-`ebook-convert Oathbringer.epub Oathbringer.mobi`
-puts "[mobi] Generated MOBI file"
-
-# Generate PDF as well
-# First, lets make a better css version of the html
-`pandoc Oathbringer.html -s -c style.css  -o Oathbringer_pdf.html`
-puts "[pdf] Generated html for pdf"
-
-# Now we convert the cover to a pdf
-`convert cover.jpg cover.pdf`
-puts "[pdf] Generated cover for pdf"
-
-# Print the pdf_html file to pdf
-`wkhtmltopdf Oathbringer_pdf.html /tmp/Oathbringer.pdf`
-puts "[pdf] Generated PDF without cover"
-
-# Join the cover and pdf together
-`pdftk cover.pdf /tmp/Oathbringer.pdf cat output Oathbringer.pdf`
-puts "[pdf] Generated PDF file"
+generate("Oathbringer", :all)

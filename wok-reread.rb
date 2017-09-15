@@ -105,7 +105,7 @@ for i in 1..(links.length)
   html += "<p>Visit <a href='#{url}'>tor.com</a> for discussion.</p>"
 end
 
-File.open("wok-reread.html", 'w') { |file| file.write(html) }
+File.open("books/wok-reread.html", 'w') { |file| file.write(html) }
 puts "[html] Generated HTML file"
 
 generate("wok-reread", :all)

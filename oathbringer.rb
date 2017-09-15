@@ -2,7 +2,7 @@ require 'date'
 require 'fileutils'
 require 'nokogiri'
 require_relative './methods'
-FileUtils.mkdir_p("html")
+FileUtils.mkdir_p("oathbringer")
 
 BASE = 'https://www.tor.com/2017/'
 
@@ -25,8 +25,8 @@ episode = 1
 for link in links
     url = BASE + link
     puts "Download #{url}"
-    if !File.exists? "html/#{episode}.html"
-        `wget --no-clobber "#{url}" --output-document "html/#{episode}.html" -o /dev/null`
+    if !File.exists? "oathbringer/#{episode}.html"
+        `wget --no-clobber "#{url}" --output-document "oathbringer/#{episode}.html" -o /dev/null`
     end
     episode +=1
 end
@@ -34,7 +34,7 @@ end
 # Now we have all the files
 html = ""
 for i in 1..(links.length)
-  page = Nokogiri::HTML(open("html/#{i}.html")).css('.entry-content')
+  page = Nokogiri::HTML(open("oathbringer/#{i}.html")).css('.entry-content')
   start = ending = false
   page.children.each do |e|
       if e.name == 'h3'
@@ -58,7 +58,7 @@ end
 
 html += "<p>~fin\~<br>Next 3 chapters out on #{next_date.to_s}</p>"
 
-File.open("Oathbringer.html", 'w') { |file| file.write(html) }
+File.open("books/Oathbringer.html", 'w') { |file| file.write(html) }
 puts "[html] Generated HTML file"
 
 generate("Oathbringer", :all)

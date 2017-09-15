@@ -1,10 +1,4 @@
-/Oathbringer.*
-/Oathbringer_*
-html/
-cover.pdf
-wok/
-/wok-reread_*
-/wok-reread.epub
-/wok-reread.html
-/wok-reread.mobi
-/wok-reread.pdf
+/wok/*.html
+/wor/*.html
+/oathbringer/*.html
+/books/*

@@ -22,6 +22,12 @@ epub, mobi, pdf and html. You can find the tor.com announcement at https://www.t
 
 >Join Michael Pye (aka The Mad Hatter) and Carl Engle-Laird as they dive into the details of Sanderson’s complex new world of Roshar. Find out more at https://www.tor.com/features/series/the-way-of-kings-reread-on-torcom/
 
+## Words of Radiance Reread
+
+Welcome to the reread of Brandon Sanderson’s second Stormlight Archive series book Words of Radiance! This reread will be a collaborative effort between Tor.com’s own editorial assistant Carl Engle-Laird and long-time Tor.com commenter and Sanderson beta-reader Alice Arneson. This new partnership promises to be as potent as that between spren and Radiant. Join them in the Storm Cellar as they evaluate, discuss, question, and generally kibitz their way through the Words of Radiance.
+
+More details at https://www.tor.com/series/words-of-radiance-reread-on-torcom/
+
 ## Requirements
 
 - Ruby
@@ -34,7 +40,7 @@ epub, mobi, pdf and html. You can find the tor.com announcement at https://www.t
 
 - The final 2 tools can be skipped if you don't care about the PDF generation.
 - You can also skip calibre if you only want the EPUB file.
-- Edit the last line in `setup.rb` to `:epub` / `:mobi`, `:pdf` to only trigger the specific builds
+- Edit the last line in `*.rb` to `:epub` / `:mobi`, `:pdf` to only trigger the specific builds
 
 ## Generation
 
@@ -42,18 +48,25 @@ epub, mobi, pdf and html. You can find the tor.com announcement at https://www.t
 
 After downloading the repo and installing the requirements, just run
 
-    ruby setup.rb
+    ruby oathbringer.rb
 
 All the generated files will be saved with the filename `Oathbringer.{epub|pdf|mobi|html}`
 
 ## Way of Kings Reread
-
 
 To generate the book:
 
     ruby wok-reread.rb
 
 All the generated files will be saved with the filename `wok-reread.{epub|pdf|mobi|html}`
+
+## Words of Radiance Reread
+
+To generate the book:
+
+    ruby wor-reread.rb
+
+All the generated files will be saved with the filename `books/wok-reread.{epub|pdf|mobi|html}`. This generation might take a while because it contains a lot of images. It doesn't have the best possible index either, but is still pretty readable.
 
 # LICENSE
 

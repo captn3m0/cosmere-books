@@ -33,6 +33,17 @@ After downloading the repo and installing the requirements, just run
 
 All the generated files will be saved with the filename `Oathbringer.{epub|pdf|mobi|html}`
 
+## Way of Kings Reread
+
+>Join Michael Pye (aka The Mad Hatter) and Carl Engle-Laird as they dive into the details of Sanderson’s complex new world of Roshar. Find out more at https://www.tor.com/features/series/the-way-of-kings-reread-on-torcom/
+
+To generate the book:
+
+    ruby wok-reread.rb
+
+All the generated files will be saved with the filename `wok-reread.{epub|pdf|mobi|html}`
+
+
 # LICENSE
 
 This is licensed under WTFPL. See COPYING file for the full text.

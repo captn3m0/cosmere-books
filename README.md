@@ -9,20 +9,22 @@ and run the script on your own machine to generate the copies.
 
 The code for this is mostly adapted from [hoshruba](https://github.captnemo.in/hoshruba).
 
+You can download sample files (Lorem Ipsum) from <http://ge.tt/8R61oXm2> to see a sample of how the generated files look.
+
 ## Requirements
 
 - Ruby
 - Nokogiri gem installed (`gem install nokogiri`)
 - Unix system with `wget` installed
-- `pandoc` installed and available
-- `ebook-convert` (from calibre) available to generate the mobi file
-- `wkhtmltopdf` for converting html to pdf
-- `pdftk` to stitch the final PDF file
-- `imagemagick` to convert jpg to PDF
+- `pandoc` installed and available (for all 3 formats)
+- (mobi only): `ebook-convert` (from calibre) available to generate the mobi file
+- (pdf) `wkhtmltopdf` for converting html to pdf
+- (pdf) `pdftk` to stitch the final PDF file
+- (pdf) `imagemagick` to convert jpg to PDF
 
-The final 3 tools can be skipped if you don't care about the PDF generation.
-
-You can also skip calibre if you only want the EPUB file.
+- The final 3 tools can be skipped if you don't care about the PDF generation.
+- You can also skip calibre if you only want the EPUB file.
+- Edit the last line in `setup.rb` to `:epub` / `:mobi`, `:pdf` to only trigger the specific builds
 
 # Setup
 

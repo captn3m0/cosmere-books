@@ -33,7 +33,7 @@ end
 
 # Now we have all the files
 html = ""
-for i in 1..3
+for i in 1..(links.length)
     page = Nokogiri::HTML(open("html/#{i}.html")).css('.entry-content')
     start = ending = false
     page.children.each do |e|

@@ -1,5 +1,7 @@
 # cosmere-books
 
+![Books in the Cosmere](https://i.imgur.com/NymmBq4.png)
+
 Scripts to generate books from the [Cosmere]() using various public sources. Currently supports the following books:
 
 1. Oathbringer (Serialized till Chapter 32)
@@ -67,6 +69,10 @@ To generate the book:
     ruby wor-reread.rb
 
 All the generated files will be saved with the filename `books/wok-reread.{epub|pdf|mobi|html}`. This generation might take a while because it contains a lot of images. It doesn't have the best possible index either, but is still pretty readable.
+
+## Extra
+
+If you'd like to see any other books covered here, please create an issue, or reach out to me: <https://captnemo.in/contact/>
 
 # LICENSE
 

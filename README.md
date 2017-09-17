@@ -7,6 +7,7 @@ Scripts to generate books from the [Cosmere]() using various public sources. Cur
 1. Oathbringer (Serialized till Chapter 32)
 2. Way of Kings Reread
 3. Words of Radiance Reread
+4. Edgedancer Reread
 
 For obvious reasons, the converted ebooks are not part of this repo. You must download
 and run the script on your own machine to generate the copies.
@@ -23,13 +24,21 @@ epub, mobi, pdf and html. You can find the tor.com announcement at https://www.t
 
 ## Way of Kings Reread
 
->Join Michael Pye (aka The Mad Hatter) and Carl Engle-Laird as they dive into the details of Sanderson’s complex new world of Roshar. Find out more at https://www.tor.com/features/series/the-way-of-kings-reread-on-torcom/
+Join Michael Pye (aka The Mad Hatter) and Carl Engle-Laird as they dive into the details of Sanderson’s complex new world of Roshar.
+
+Find out more at https://www.tor.com/features/series/the-way-of-kings-reread-on-torcom/
 
 ## Words of Radiance Reread
 
 Welcome to the reread of Brandon Sanderson’s second Stormlight Archive series book Words of Radiance! This reread will be a collaborative effort between Tor.com’s own editorial assistant Carl Engle-Laird and long-time Tor.com commenter and Sanderson beta-reader Alice Arneson. This new partnership promises to be as potent as that between spren and Radiant. Join them in the Storm Cellar as they evaluate, discuss, question, and generally kibitz their way through the Words of Radiance.
 
 More details at https://www.tor.com/series/words-of-radiance-reread-on-torcom/
+
+## Edgedancer Reread
+
+Join Alice Arneson and Lyndsey Luther for a reread of Brandon Sanderson’s Cosmere novella, Edgedancer, which fills in some of the details for Lift and Nalan between their appearances in Words of Radiance and the next time we see them in Oathbringer.
+
+More details at https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
 
 ## Requirements
 
@@ -70,6 +79,14 @@ To generate the book:
     ruby wor-reread.rb
 
 All the generated files will be saved with the filename `books/wok-reread.{epub|pdf|mobi|html}`. This generation might take a while because it contains a lot of images. It doesn't have the best possible index either, but is still pretty readable.
+
+## Edgedancer Reread
+
+To generate the book:
+
+    ruby edgedancer-reread.rb
+
+All the generated files will be saved with the filename `books/edgedan-reread.{epub|pdf|mobi|html}`. This generation might take a while because it contains a lot of images. It doesn't have the best possible index either, but is still pretty readable.
 
 ## Extra
 

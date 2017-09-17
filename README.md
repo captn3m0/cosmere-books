@@ -6,6 +6,7 @@ Scripts to generate books from the [Cosmere]() using various public sources. Cur
 
 1. Oathbringer (Serialized till Chapter 32)
 2. Way of Kings Reread
+3. Words of Radiance Reread
 
 For obvious reasons, the converted ebooks are not part of this repo. You must download
 and run the script on your own machine to generate the copies.

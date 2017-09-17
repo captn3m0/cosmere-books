@@ -140,7 +140,7 @@ for i in 1..(links.length)
   html += "<h1>#{title}</h1>"
   html += page.inner_html
 
-  url = links[i - 1]
+  url = BASE + links[i - 1]
 
   html += "<p>Visit <a href='#{url}'>tor.com</a> for discussion.</p>"
 end

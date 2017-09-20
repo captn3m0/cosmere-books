@@ -33,12 +33,20 @@ def format_match(format)
 end
 
 def gen_epub(name, _format)
-  if command?('pandoc') && format_match(:epub)
-    # Convert it to epub
-    `pandoc -S -o books/#{name}.epub --epub-metadata=metadata/#{name}.xml --epub-cover-image=covers/#{name}.jpg books/#{name}.html`
-    puts '[epub] Generated EPUB file'
-  else
-    puts "[error] Can't generate EPUB without pandoc"
+  if format_match(:epub)
+    begin
+      require "paru/pandoc"
+      Paru::Pandoc.new do
+        from "html"
+        to "epub"
+        epub_metadata "metadata/#{name}.xml"
+        epub_cover_image "covers/#{name}.jpg"
+        output "books/#{name}.epub"
+      end.convert File.read("books/#{name}.html")
+      puts '[epub] Generated EPUB file'
+    rescue LoadError
+      puts "[error] Can't generate EPUB without paru"
+    end
   end
 end
 

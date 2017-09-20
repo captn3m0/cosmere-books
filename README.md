@@ -46,6 +46,7 @@ More details at https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
 - Nokogiri gem installed (`gem install nokogiri`)
 - Unix system with `wget` installed
 - `pandoc` installed and available (for all 3 formats)
+- Paru gem installed (`gem install paru`)
 - (mobi only): `ebook-convert` (from calibre) available to generate the mobi file
 - (pdf) `wkhtmltopdf` for converting html to pdf
 - (pdf) `pdftk` to stitch the final PDF file
@@ -53,6 +54,7 @@ More details at https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
 - The final 2 tools can be skipped if you don't care about the PDF generation.
 - You can also skip calibre if you only want the EPUB file.
 - Edit the last line in `*.rb` to `:epub` / `:mobi`, `:pdf` to only trigger the specific builds
+- Windows users need wget. Download the latest wget.exe from https://eternallybored.org/misc/wget/ and add it's directory to the PATH environment variable or put it directly in C:\Windows.
 
 ## Generation
 

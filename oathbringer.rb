@@ -37,8 +37,9 @@ else
     puts next_date
     break if next_date + 7 > Date.today
    end
+   next_date += 7;
 end
-next_date += 7;
+
 episode = 1
 
 links.each do |link|

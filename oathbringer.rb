@@ -25,7 +25,6 @@ else
   # Automatically adds all recent chapters
   puts 'Downloading all found links'
   chapter = Integer(links.last.split('-').last.gsub(/[^0-9]/, '')) + 1
-  puts chapter
   next_date = Date.new(1970,01,01)
   loop do
     links.last.split('/')
@@ -34,7 +33,6 @@ else
     next_date = Date.new(2017, month.to_i, day.to_i) + 7
     links << "#{next_date.strftime("%m")}/#{next_date.strftime("%d")}/oathbringer-by-brandon-sanderson-chapters-#{chapter}-#{chapter + 2}/"
     chapter += 3;
-    puts next_date
     break if next_date + 7 > Date.today
    end
    next_date += 7;

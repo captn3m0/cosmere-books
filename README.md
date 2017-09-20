@@ -44,7 +44,6 @@ More details at https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
 
 - Ruby
 - Nokogiri gem installed (`gem install nokogiri`)
-- Unix system with `wget` installed
 - `pandoc` installed and available (for all 3 formats)
 - Paru gem installed (`gem install paru`)
 - (mobi only): `ebook-convert` (from calibre) available to generate the mobi file

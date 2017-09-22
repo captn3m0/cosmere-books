@@ -9,16 +9,34 @@ BASE = 'https://www.tor.com/2017/'.freeze
 links = [
   '08/22/oathbringer-brandon-sanderson-prologue/',
   '08/29/oathbringer-brandon-sanderson-chapter-1-3/',
-  '09/05/oathbringer-by-brandon-sanderson-chapters-4-6/',
-  '09/12/oathbringer-by-brandon-sanderson-chapters-7-9/'
+  '09/05/oathbringer-by-brandon-sanderson-chapters-4-6/'
 ]
 
-links.last.split('/')
+manually_add_links = false;
 
-month = links.last.split('/').first
-day = links.last.split('/')[1]
-
-next_date = Date.new(2017, month.to_i, day.to_i) + 7
+if manually_add_links
+  # Only downloads links already added to array <links>
+  puts 'Downloading manually added links'
+  links.last.split('/')
+  month = links.last.split('/').first
+  day = links.last.split('/')[1]
+  next_date = Date.new(2017, month.to_i, day.to_i) + 7
+else
+  # Automatically adds all recent chapters
+  puts 'Downloading all found links'
+  chapter = Integer(links.last.split('-').last.gsub(/[^0-9]/, '')) + 1
+  next_date = Date.new(1970,01,01)
+  loop do
+    links.last.split('/')
+    month = links.last.split('/').first
+    day = links.last.split('/')[1]
+    next_date = Date.new(2017, month.to_i, day.to_i) + 7
+    links << "#{next_date.strftime("%m")}/#{next_date.strftime("%d")}/oathbringer-by-brandon-sanderson-chapters-#{chapter}-#{chapter + 2}/"
+    chapter += 3;
+    break if next_date + 7 > Date.today
+   end
+   next_date += 7;
+end
 
 episode = 1
 

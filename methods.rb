@@ -28,12 +28,12 @@ def commands?(commands)
   commands.map { |c| command? c }
 end
 
-def format_match(format)
-  [:all, format].include? format
+def format_match(format, format_to_match)
+  [:all, format_to_match].include? format
 end
 
 def gen_epub(name, _format)
-  if format_match(:epub)
+  if format_match(_format, :epub)
     begin
       require "paru/pandoc"
       Paru::Pandoc.new do
@@ -51,7 +51,7 @@ def gen_epub(name, _format)
 end
 
 def gen_mobi(name, _format)
-  if command?('ebook-convert') && format_match(:mobi)
+  if command?('ebook-convert') && format_match(_format, :mobi)
     # Convert epub to a mobi
     `ebook-convert books/#{name}.epub books/#{name}.mobi`
     puts '[mobi] Generated MOBI file'
@@ -61,7 +61,7 @@ def gen_mobi(name, _format)
 end
 
 def gen_pdf(name, _format)
-  if commands?(%w[pandoc convert wkhtmltopdf pdftk]) && format_match(:pdf)
+  if commands?(%w[pandoc convert wkhtmltopdf pdftk]) && format_match(_format, :pdf)
     # Generate PDF as well
     # First, lets make a better css version of the html
     `pandoc books/#{name}.html -s -c ../style.css  -o books/#{name}_pdf.html`

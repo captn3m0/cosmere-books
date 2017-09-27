@@ -12,7 +12,7 @@ links = [
   '09/05/oathbringer-by-brandon-sanderson-chapters-4-6/'
 ]
 
-manually_add_links = false;
+manually_add_links = false
 
 if manually_add_links
   # Only downloads links already added to array <links>
@@ -25,17 +25,17 @@ else
   # Automatically adds all recent chapters
   puts 'Downloading all found links'
   chapter = Integer(links.last.split('-').last.gsub(/[^0-9]/, '')) + 1
-  next_date = Date.new(1970,01,01)
+  next_date = Date.new(1970, 1, 1)
   loop do
     links.last.split('/')
     month = links.last.split('/').first
     day = links.last.split('/')[1]
     next_date = Date.new(2017, month.to_i, day.to_i) + 7
-    links << "#{next_date.strftime("%m")}/#{next_date.strftime("%d")}/oathbringer-by-brandon-sanderson-chapters-#{chapter}-#{chapter + 2}/"
-    chapter += 3;
+    links << "#{next_date.strftime('%m')}/#{next_date.strftime('%d')}/oathbringer-by-brandon-sanderson-chapters-#{chapter}-#{chapter + 2}/"
+    chapter += 3
     break if next_date + 7 > Date.today
-   end
-   next_date += 7;
+  end
+  next_date += 7
 end
 
 episode = 1
@@ -65,12 +65,12 @@ for i in 1..(links.length)
     e.remove if !start || ending
   end
   html += page.inner_html
-  url = links[i - 1]
+  url = BASE + links[i - 1]
 
   html += "<p>Visit <a href='#{url}'>tor.com</a> for discussion.</p>"
 end
 
-html += "<p>~fin\~<br>Next 3 chapters out on #{next_date}</p>"
+html += "<p>Next 3 chapters out on #{next_date}</p>"
 
 File.open('books/Oathbringer.html', 'w') { |file| file.write(html) }
 puts '[html] Generated HTML file'

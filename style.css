@@ -4,75 +4,83 @@
     Author: Ryan Gray
     Date: 15 Feb 2011
     Revised: 21 Feb 2012
-   
-    General style is clean, with minimal re-definition of the defaults or 
-    overrides of user font settings. The body text and header styles are 
-    left alone except title, author and date classes are centered. A Pandoc TOC 
-    is not printed, URLs are printed after hyperlinks in parentheses. 
-    Block quotes are italicized. Tables are lightly styled with lines above 
-    and below the table and below the header with a boldface header. Code 
-    blocks are line wrapped. 
 
-    All elements that Pandoc and MultiMarkdown use should be listed here, even 
+    General style is clean, with minimal re-definition of the defaults or
+    overrides of user font settings. The body text and header styles are
+    left alone except title, author and date classes are centered. A Pandoc TOC
+    is not printed, URLs are printed after hyperlinks in parentheses.
+    Block quotes are italicized. Tables are lightly styled with lines above
+    and below the table and below the header with a boldface header. Code
+    blocks are line wrapped.
+
+    All elements that Pandoc and MultiMarkdown use should be listed here, even
     if the style is empty so you can easily add styling to anything.
-    
-    There are some elements in here for HTML5 output of Pandoc, but I have not 
+
+    There are some elements in here for HTML5 output of Pandoc, but I have not
     gotten around to testing that yet.
 */
 
 /* NOTES:
 
     Stuff tried and failed:
-    
-    It seems that specifying font-family:serif in Safari will always use 
+
+    It seems that specifying font-family:serif in Safari will always use
     Times New Roman rather than the user's preferences setting.
-    
-    Making the font size different or a fixed value for print in case the screen 
-    font size is making the print font too big: Making font-size different for 
-    print than for screen causes horizontal lines to disappear in math when using 
+
+    Making the font size different or a fixed value for print in case the screen
+    font size is making the print font too big: Making font-size different for
+    print than for screen causes horizontal lines to disappear in math when using
     MathJax under Safari.
 */
 
+body {
+  display: block;
+  font-size: 1em;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 5pt 5pt;
+}
+
 /* ---- Front Matter ---- */
 
-/* Pandoc header DIV. Contains .title, .author and .date. Comes before div#TOC. 
+/* Pandoc header DIV. Contains .title, .author and .date. Comes before div#TOC.
    Only appears if one of those three are in the document.
 */
 
 div#header,
 header {
-    /* Put border on bottom. Separates it from TOC or body that comes after it. */
-    border-bottom: 1px solid #aaa;
-    margin-bottom: 0.5em;
+  /* Put border on bottom. Separates it from TOC or body that comes after it. */
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
 }
 
 .title {
-    text-align: center;
+  text-align: center;
 }
 
 .author,
 .date {
-    text-align: center;
+  text-align: center;
 }
 
 /* Pandoc table of contents DIV when using the --toc option.
-   NOTE: this doesn't support Pandoc's --id-prefix option for #TOC and #header. 
+   NOTE: this doesn't support Pandoc's --id-prefix option for #TOC and #header.
    Probably would need to use div[id$='TOC'] and div[id$='header'] as selectors.
 */
 
 div#TOC,
 nav#TOC {
-    /* Put border on bottom to separate it from body. */
-    border-bottom: 1px solid #aaa;
-    margin-bottom: 0.5em;
+  /* Put border on bottom to separate it from body. */
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
 }
 
 @media print {
-    div#TOC,
-    nav#TOC {
-        /* Don't display TOC in print */
-        display: none;
-    }
+  div#TOC,
+  nav#TOC {
+    /* Don't display TOC in print */
+    display: none;
+  }
 }
 
 /* ---- Headers and sections ---- */
@@ -83,35 +91,38 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Helvetica Neue', Helvetica, 'Liberation Sans', Calibri, Arial,
-        sans-serif;
-    /* Sans-serif headers */
+  font-family: 'Helvetica Neue', Helvetica, 'Liberation Sans', Calibri, Arial,
+    sans-serif;
+  /* Sans-serif headers */
 
-    /*font-family: 'Liberation Serif', 'Georgia', 'Times New Roman', serif;*/
-    /* Serif headers */
+  /*font-family: 'Liberation Serif', 'Georgia', 'Times New Roman', serif;*/
+  /* Serif headers */
 
-    page-break-after: avoid; /* Firefox, Chrome, and Safari do not support the property value "avoid" */
+  page-break-after: avoid; /* Firefox, Chrome, and Safari do not support the property value "avoid" */
 }
 
 /* Pandoc with --section-divs option */
 
 div div,
 section section {
-    margin-left: 2em; /* This will increasingly indent nested header sections */
+  margin-left: 2em; /* This will increasingly indent nested header sections */
 }
 
 p {
+  text-align: justify;
+  text-indent: 1em;
+  margin: 0;
 }
 
 blockquote {
-    font-style: italic;
+  font-style: italic;
 }
 
 li {
 }
 
 li > p {
-    margin-top: 1em; /* IE: lack of space above a <li> when the item is inside a <p> */
+  margin-top: 1em; /* IE: lack of space above a <li> when the item is inside a <p> */
 }
 
 ul {
@@ -141,7 +152,7 @@ em {
 }
 
 em > em {
-    font-style: normal;
+  font-style: normal;
 }
 
 strong {
@@ -150,92 +161,92 @@ strong {
 /* ---- Links (anchors) ---- */
 
 a {
-    /* Keep links clean. On screen, they are colored; in print, they do nothing anyway. */
-    text-decoration: none;
+  /* Keep links clean. On screen, they are colored; in print, they do nothing anyway. */
+  text-decoration: none;
 }
 
 @media screen {
-    a:hover {
-        /* On hover, we indicate a bit more that it is a link. */
-        text-decoration: underline;
-    }
+  a:hover {
+    /* On hover, we indicate a bit more that it is a link. */
+    text-decoration: underline;
+  }
 }
 
 @media print {
-    a {
-        /* In print, a colored link is useless, so un-style it. */
-        color: black;
-        background: transparent;
-    }
+  a {
+    /* In print, a colored link is useless, so un-style it. */
+    color: black;
+    background: transparent;
+  }
 
-    a[href^='http://']:after,
-    a[href^='https://']:after {
-        /* However, links that go somewhere else, might be useful to the reader,
-           so for http and https links, print the URL after what was the link 
+  a[href^='http://']:after,
+  a[href^='https://']:after {
+    /* However, links that go somewhere else, might be useful to the reader,
+           so for http and https links, print the URL after what was the link
            text in parens
         */
-        content: ' (' attr(href) ') ';
-        font-size: 90%;
-    }
+    content: ' (' attr(href) ') ';
+    font-size: 90%;
+  }
 }
 
 /* ---- Images ---- */
 
 img {
-    /* Let it be inline left/right where it wants to be, but verticality make 
-       it in the middle to look nicer, but opinions differ, and if in a multi-line 
-       paragraph, it might not be so great. 
+  /* Let it be inline left/right where it wants to be, but verticality make
+       it in the middle to look nicer, but opinions differ, and if in a multi-line
+       paragraph, it might not be so great.
     */
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 div.figure {
-    /* Center the image and caption */
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-style: italic;
+  /* Center the image and caption */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-style: italic;
 }
 
 p.caption {
-    /* Inherits div.figure props by default */
+  /* Inherits div.figure props by default */
 }
 
 /* ---- Code blocks and spans ---- */
 
 pre,
 code {
-    background-color: #fdf7ee;
-    /* BEGIN word wrap */
-    /* Need all the following to word wrap instead of scroll box */
-    /* This will override the overflow:auto if present */
-    white-space: pre-wrap; /* css-3 */
-    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
-    white-space: -pre-wrap; /* Opera 4-6 */
-    white-space: -o-pre-wrap; /* Opera 7 */
-    word-wrap: break-word; /* Internet Explorer 5.5+ */
-    /* END word wrap */
+  background-color: #fdf7ee;
+  /* BEGIN word wrap */
+  /* Need all the following to word wrap instead of scroll box */
+  /* This will override the overflow:auto if present */
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  /* END word wrap */
 }
 
 pre {
-    /* Distinguish pre blocks from other text by more than the font with a background tint. */
-    padding: 0.5em; /* Since we have a background color */
-    border-radius: 5px; /* Softens it */
-    /* Give it a some definition */
-    border: 1px solid #aaa;
-    /* Set it off left and right, seems to look a bit nicer when we have a background */
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+  /* Distinguish pre blocks from other text by more than the font with a background tint. */
+  padding: 0.5em; /* Since we have a background color */
+  border-radius: 5px; /* Softens it */
+  /* Give it a some definition */
+  border: 1px solid #aaa;
+  /* Set it off left and right, seems to look a bit nicer when we have a background */
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 @media screen {
-    pre {
-        /* On screen, use an auto scroll box for long lines, unless word-wrap is enabled */
-        white-space: pre;
-        overflow: auto;
-        /* Dotted looks better on screen and solid seems to print better. */
-        border: 1px dotted #777;
-    }
+  pre {
+    /* On screen, use an auto scroll box for long lines, unless word-wrap is enabled */
+    white-space: pre;
+    overflow: auto;
+    /* Dotted looks better on screen and solid seems to print better. */
+    border: 1px dotted #777;
+  }
 }
 
 code {
@@ -243,20 +254,20 @@ code {
 
 p > code,
 li > code {
-    /* Pad a little from adjacent text */
-    padding-left: 2px;
-    padding-right: 2px;
+  /* Pad a little from adjacent text */
+  padding-left: 2px;
+  padding-right: 2px;
 }
 
 li > p code {
-    /* We have room for some more background color above and below */
-    padding: 2px;
+  /* We have room for some more background color above and below */
+  padding: 2px;
 }
 
 /* ---- Math ---- */
 
 span.math {
-    /* Tried font-style:italic here, and it messed up MathJax rendering in some browsers. Maybe don't mess with at all. */
+  /* Tried font-style:italic here, and it messed up MathJax rendering in some browsers. Maybe don't mess with at all. */
 }
 
 div.math {
@@ -270,25 +281,25 @@ eq {
 
 /* ---- Tables ---- */
 
-/*  A clean textbook-like style with horizontal lines above and below and under 
+/*  A clean textbook-like style with horizontal lines above and below and under
     the header. Rows highlight on hover to help scanning the table on screen.
 */
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0; /* IE 6 */
+  border-collapse: collapse;
+  border-spacing: 0; /* IE 6 */
 
-    border-bottom: 2pt solid #000;
-    border-top: 2pt solid #000; /* The caption on top will not have a bottom-border */
+  border-bottom: 2pt solid #000;
+  border-top: 2pt solid #000; /* The caption on top will not have a bottom-border */
 
-    /* Center */
-    margin-left: auto;
-    margin-right: auto;
+  /* Center */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 thead {
-    border-bottom: 1pt solid #000;
-    background-color: #eee; /* Does this BG print well? */
+  border-bottom: 1pt solid #000;
+  background-color: #eee; /* Does this BG print well? */
 }
 
 tr.header {
@@ -303,7 +314,7 @@ tr {
 }
 tr.odd:hover,
 tr.even:hover {
-    background-color: #eee;
+  background-color: #eee;
 }
 
 /* Odd and even rows */
@@ -314,12 +325,12 @@ tr.even {
 
 td,
 th {
-    vertical-align: top; /* Word */
-    vertical-align: baseline; /* Others */
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
+  vertical-align: top; /* Word */
+  vertical-align: baseline; /* Others */
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 
 /* Removes padding on left and right of table for a tight look. Good if thead has no background color*/
@@ -328,61 +339,61 @@ tr td:last-child, tr th:last-child
     {
     padding-right: 0;
     }
-tr td:first-child, tr th:first-child 
+tr td:first-child, tr th:first-child
     {
     padding-left: 0;
     }
 */
 
 th {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 tfoot {
 }
 
 caption {
-    caption-side: top;
-    border: none;
-    font-size: 0.9em;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 0.3em; /* Good for when on top */
-    padding-bottom: 0.2em;
+  caption-side: top;
+  border: none;
+  font-size: 0.9em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 0.3em; /* Good for when on top */
+  padding-bottom: 0.2em;
 }
 
 /* ---- Definition lists ---- */
 
 dl {
-    border-top: 2pt solid black;
-    padding-top: 0.5em;
-    border-bottom: 2pt solid black;
+  border-top: 2pt solid black;
+  padding-top: 0.5em;
+  border-bottom: 2pt solid black;
 }
 
 dt {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 dd + dt {
-    border-top: 1pt solid black;
-    padding-top: 0.5em;
+  border-top: 1pt solid black;
+  padding-top: 0.5em;
 }
 
 dd {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 dd + dd {
-    border-top: 1px solid black; /* To separate multiple definitions */
+  border-top: 1px solid black; /* To separate multiple definitions */
 }
 
 /* ---- Footnotes ---- */
 
 a.footnote,
 a.footnoteRef {
-    /* Pandoc, MultiMarkdown footnote links */
-    font-size: small;
-    vertical-align: text-top;
+  /* Pandoc, MultiMarkdown footnote links */
+  font-size: small;
+  vertical-align: text-top;
 }
 
 a[href^='#fnref'],
@@ -390,11 +401,11 @@ a.reversefootnote {
 }
 
 @media print {
-    a[href^='#fnref'],
-    a.reversefootnote {
-        /* Don't display these at all in print since the arrow is only something to click on */
-        display: none;
-    }
+  a[href^='#fnref'],
+  a.reversefootnote {
+    /* Don't display these at all in print since the arrow is only something to click on */
+    display: none;
+  }
 }
 
 div.footnotes {
@@ -403,14 +414,14 @@ div.footnotes {
 div.footnotes li[id^='fn'] {
 }
 
-/* You can class stuff as "noprint" to not print. 
-   Useful since you can't set this media conditional inside an HTML element's 
-   style attribute (I think), and you don't want to make another stylesheet that 
+/* You can class stuff as "noprint" to not print.
+   Useful since you can't set this media conditional inside an HTML element's
+   style attribute (I think), and you don't want to make another stylesheet that
    imports this one and adds a class just to do this.
 */
 
 @media print {
-    .noprint {
-        display: none;
-    }
+  .noprint {
+    display: none;
+  }
 }

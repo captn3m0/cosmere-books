@@ -34,16 +34,12 @@ for i in 1..(links.length)
   ending = false
 
   page.traverse do |e|
-    whitelist = ['p', 'div', 'span', 'article', 'h1', 'h2', 'h3', 'h4', 'a', 'h5', 'h6', 'i', 'text']
+    whitelist = %w[p div span article h1 h2 h3 h4 a h5 h6 i text]
     blacklist = ['.post-meta', '.addthis_toolbox', '.book-links', 'post-nav']
-    if (whitelist.include?(e.name) == false)
-      e.remove
-    end
+    e.remove if whitelist.include?(e.name) == false
 
     blacklist.each do |selector|
-      page.css(selector).each do |e|
-        e.remove
-      end
+      page.css(selector).each(&:remove)
     end
   end
 

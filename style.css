@@ -103,11 +103,6 @@ h6 {
 
 /* Pandoc with --section-divs option */
 
-div div,
-section section {
-  margin-left: 2em; /* This will increasingly indent nested header sections */
-}
-
 p {
   text-align: justify;
   text-indent: 1em;

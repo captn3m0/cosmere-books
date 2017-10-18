@@ -21,7 +21,9 @@ You can download sample files (Lorem Ipsum) from <http://ge.tt/8R61oXm2> to see 
 
 Tor.com is publishing Oathbringer in serialized form till Chapter 32. This script
 downloads all of these posts and converts them into a publishable format, including
-epub, mobi, pdf and html. You can find the tor.com announcement at https://www.tor.com/2017/08/15/brandon-sanderson-oathbringer-serialization-announcement/
+epub, mobi, pdf and html. You can find the tor.com announcement at https://www.tor.com/2017/08/15/brandon-sanderson-oathbringer-serialization-announcement/.
+
+The script figures out all the chapter URLs, so I just run it every Tuesday now (it doesn't need updates).
 
 ## Way of Kings Reread
 

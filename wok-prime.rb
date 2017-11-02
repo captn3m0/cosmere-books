@@ -12,7 +12,17 @@ links = [
   'altered-perceptions/',
   'way-of-kings-prime-chapter-1-dalenar-1/',
   'way-of-kings-prime-chapter-3-merin-1/',
-  'way-of-kings-prime-chapter-5-merin-2/'
+  'way-of-kings-prime-chapter-5-merin-2/',
+  'dragonsteel-prime-chapter-25-bridge-four-1/',
+  'dragonsteel-prime-chapter-28-bridge-four-2/',
+  'dragonsteel-prime-chapter-30-bridge-four-3/',
+  'dragonsteel-prime-chapter-31-bridge-four-4/',
+  'dragonsteel-prime-chapter-33-bridge-four-5/',
+  'dragonsteel-prime-chapter-35-bridge-four-6/',
+  'dragonsteel-prime-chapter-37-bridge-four-7/',
+  'the-way-of-kings-chapter-13-d/',
+  'the-way-of-kings-chapter-15-d/',
+  'the-way-of-kings-chapter-16-d/'
 ]
 
 episode = 1

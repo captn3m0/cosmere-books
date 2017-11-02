@@ -12,31 +12,20 @@ links = [
   '09/05/oathbringer-by-brandon-sanderson-chapters-4-6/'
 ]
 
-manually_add_links = false
-
-if manually_add_links
-  # Only downloads links already added to array <links>
-  puts 'Downloading manually added links'
+# Automatically adds all recent chapters
+puts 'Downloading all found links'
+chapter = Integer(links.last.split('-').last.gsub(/[^0-9]/, '')) + 1
+next_date = Date.new(1970, 1, 1)
+loop do
   links.last.split('/')
   month = links.last.split('/').first
   day = links.last.split('/')[1]
   next_date = Date.new(2017, month.to_i, day.to_i) + 7
-else
-  # Automatically adds all recent chapters
-  puts 'Downloading all found links'
-  chapter = Integer(links.last.split('-').last.gsub(/[^0-9]/, '')) + 1
-  next_date = Date.new(1970, 1, 1)
-  loop do
-    links.last.split('/')
-    month = links.last.split('/').first
-    day = links.last.split('/')[1]
-    next_date = Date.new(2017, month.to_i, day.to_i) + 7
-    links << "#{next_date.strftime('%m')}/#{next_date.strftime('%d')}/oathbringer-by-brandon-sanderson-chapters-#{chapter}-#{chapter + 2}/"
-    chapter += 3
-    break if next_date + 7 > Date.today
-  end
-  next_date += 7
+  links << "#{next_date.strftime('%m')}/#{next_date.strftime('%d')}/oathbringer-by-brandon-sanderson-chapters-#{chapter}-#{chapter + 2}/"
+  chapter += 3
+  break if next_date + 7 > Date.today
 end
+next_date += 7
 
 episode = 1
 

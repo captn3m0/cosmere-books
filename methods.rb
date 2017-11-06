@@ -41,7 +41,7 @@ def gen_epub(name, format)
       to 'epub'
       epub_metadata "metadata/#{name}.xml"
       epub_cover_image "covers/#{name}.jpg"
-      epub_stylesheet "style.css"
+      data_dir Dir.pwd
       output "books/#{name}.epub"
     end.convert File.read("books/#{name}.html")
     puts '[epub] Generated EPUB file'
@@ -64,7 +64,7 @@ def gen_pdf(name, format)
   if commands?(%w[pandoc convert wkhtmltopdf pdftk]) && format_match(format, :pdf)
     # Generate PDF as well
     # First, lets make a better css version of the html
-    `pandoc books/#{name}.html -s -c ../style.css  -o books/#{name}_pdf.html`
+    `pandoc books/#{name}.html -s -c ../epub.css  -o books/#{name}_pdf.html`
     puts '[pdf] Generated html for pdf'
 
     # Print the pdf_html file to pdf

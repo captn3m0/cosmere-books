@@ -21,7 +21,8 @@ loop do
   month = links.last.split('/').first
   day = links.last.split('/')[1]
   next_date = Date.new(2017, month.to_i, day.to_i) + 7
-  links << "#{next_date.strftime('%m')}/#{next_date.strftime('%d')}/oathbringer-by-brandon-sanderson-chapters-#{chapter}-#{chapter + 2}/"
+  ending_chapter = [chapter+2, 32].min
+  links << "#{next_date.strftime('%m')}/#{next_date.strftime('%d')}/oathbringer-by-brandon-sanderson-chapters-#{chapter}-#{ending_chapter}/"
   chapter += 3
   break if next_date + 7 > Date.today
 end

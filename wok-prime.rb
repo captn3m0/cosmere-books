@@ -25,7 +25,8 @@ links = [
   'dragonsteel-prime-chapter-37-bridge-four-7/',
   'the-way-of-kings-chapter-13-d/',
   'the-way-of-kings-chapter-15-d/',
-  'the-way-of-kings-chapter-16-d/'
+  'the-way-of-kings-chapter-16-d/',
+  'the-way-of-kings-chapter-18-d/'
 ]
 
 episode = 1

@@ -17,11 +17,15 @@ module Nokogiri
 end
 
 # https://stackoverflow.com/a/42533209/368328
-def command?(name)
-  [name,
-   *ENV['PATH'].split(File::PATH_SEPARATOR)
-               .map { |p| File.join(p, name) }]
-    .find { |f| File.executable?(f) }
+def command?(cmd)
+  exts = ENV['PATHEXT'] ? ENV['PATHEXT'].split(';') : ['']
+  ENV['PATH'].split(File::PATH_SEPARATOR).each do |path|
+    exts.each { |ext|
+      exe = File.join(path, "#{cmd}#{ext}")
+      return exe if File.executable?(exe) && !File.directory?(exe)
+    }
+  end
+  return nil
 end
 
 def commands?(commands)

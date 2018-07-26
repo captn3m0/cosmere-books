@@ -68,6 +68,8 @@ More details at https://www.tor.com/series/oathbringer-reread-brandon-sanderson/
 - (pdf) `wkhtmltopdf` for converting html to pdf
 - (pdf) `pdftk` to stitch the final PDF file
 
+### Notes
+
 - The final 2 tools can be skipped if you don't care about the PDF generation.
 - You can also skip calibre if you only want the EPUB file.
 - Edit the last line in `*.rb` to `:epub` / `:mobi`, `:pdf` to only trigger the specific builds

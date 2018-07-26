@@ -1,11 +1,11 @@
 # LTS Image
-FROM ubuntu:18.04
+FROM ubuntu:16.04
 
 LABEL maintainer="github.cosmere-ebooks@captnemo.in"
 
 ARG DEBIAN_FRONTEND="noninteractive"
 
-COPY . /src/
+COPY Gemfile Gemfile.lock /src/
 
 WORKDIR /src
 
@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     calibre \
     pandoc \
+    pdftk \
     ruby \
     ruby-dev \
     wget \
@@ -20,8 +21,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     zlib1g-dev \
     && gem install bundler --no-ri --no-rdoc \
     && bundle install \
+    && apt-get remove --purge build-essential \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+
+COPY . /src
 
 ENTRYPOINT ["/src/bootstrap.sh", "docker"]
 

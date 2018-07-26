@@ -4,11 +4,12 @@
 
 Scripts to generate books from the [Cosmere]() using various public sources. Currently supports the following books:
 
-1. Oathbringer (Serialized till Chapter 32)
-2. Way of Kings Reread
-3. Words of Radiance Reread
-4. Edgedancer Reread
-5. Way of Kings Prime
+1.  Oathbringer (Serialized till Chapter 32)
+2.  Way of Kings Reread
+3.  Words of Radiance Reread
+4.  Edgedancer Reread
+5.  Way of Kings Prime
+6.  Oathbringer Reread
 
 For obvious reasons, the converted ebooks are not part of this repo. You must download
 and run the script on your own machine to generate the copies.
@@ -45,11 +46,17 @@ More details at https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
 
 ## Way of Kings: Prime
 
->For it([Altered Perceptions anthology](https://www.indiegogo.com/projects/altered-perceptions)), I’m letting people see—for the first time—a large chunk of the original version of The Way of Kings, which I wrote in 2002–2003. This version is very different, and involves a different course in life for Kaladin as a character—all due to a simple decision he makes one way in this book, but a completely different way in the published novel.
+> For it([Altered Perceptions anthology](https://www.indiegogo.com/projects/altered-perceptions)), I’m letting people see—for the first time—a large chunk of the original version of The Way of Kings, which I wrote in 2002–2003. This version is very different, and involves a different course in life for Kaladin as a character—all due to a simple decision he makes one way in this book, but a completely different way in the published novel.
 
->These chapters are quite fun, as I consider what happened in The Way of Kings Prime (as I now call it) to be an "alternate reality" version of the events in the published books. The characters are almost all exactly the same people, but their backstories are different, and that has transformed who they are and how they react to the world around them. Roshar is similar, yet wildly different, as this was before I brought in the spren as a major world element.
+> These chapters are quite fun, as I consider what happened in The Way of Kings Prime (as I now call it) to be an "alternate reality" version of the events in the published books. The characters are almost all exactly the same people, but their backstories are different, and that has transformed who they are and how they react to the world around them. Roshar is similar, yet wildly different, as this was before I brought in the spren as a major world element.
 
 You can read more at the announcement at [BrandonSanderson.com](https://brandonsanderson.com/chapters-from-the-original-draft-of-the-way-of-kings-available-in-anthology-to-benefit-robison-wells/)
+
+# Oathbringer Reread
+
+> Join Alice Arneson and Lyndsey Luther for a reread of Brandon Sanderson’s Oathbringer, the third novel in the Stormlight Archive epic fantasy series.
+
+More details at https://www.tor.com/series/oathbringer-reread-brandon-sanderson/
 
 ## Requirements
 
@@ -105,6 +112,12 @@ All the generated files will be saved with the filename `books/edgedancer-reread
     ruby wok-prime.rb
 
 All the generated files will be saved with the filename `books/wok-prime.{epub|pdf|mobi|html}`. This generation might take a while the script attempts to strip out unnecessary HTML.
+
+## Oathbringer Reread
+
+    ruby oathbringer-reread.rb
+
+All the generated files will be saved with the filename `books/oathbringer-reread.{epub|pdf|mobi|html}`. This generation might take a while the script attempts to strip out unnecessary HTML.
 
 ## Extra
 

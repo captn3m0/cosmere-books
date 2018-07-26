@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     zlib1g-dev \
     && gem install bundler --no-ri --no-rdoc \
     && bundle install \
-    && apt-get remove --purge build-essential \
+    && apt-get remove -y --purge build-essential \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 

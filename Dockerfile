@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ruby \
     ruby-dev \
     wget \
+    wkhtmltopdf \
     zlib1g-dev \
     && gem install bundler --no-ri --no-rdoc \
     && bundle install \

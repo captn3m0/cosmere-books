@@ -27,6 +27,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY . /src
 
-ENTRYPOINT ["/src/bootstrap.sh", "docker"]
+ENTRYPOINT ["/src/bootstrap.sh"]
 
 VOLUME ["/output"]

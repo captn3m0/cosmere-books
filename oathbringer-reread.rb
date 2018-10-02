@@ -34,7 +34,16 @@ links = [
   "/2018/07/05/oathbringer-reread-chapters-twenty-nine-and-thirty/",
   "/2018/07/12/oathbringer-reread-chapters-thirty-one-and-thirty-two/",
   "/2018/07/19/oathbringer-reread-interludes-one-two-and-three/",
-  "/2018/07/26/oathbringer-reread-chapter-thirty-three/"
+  "/2018/07/26/oathbringer-reread-chapter-thirty-three/",
+  "/2018/08/02/oathbringer-reread-chapter-thirty-four/",
+  "/2018/08/09/oathbringer-reread-chapter-thirty-five/",
+  "/2018/08/16/oathbringer-reread-chapters-thirty-six-and-thirty-seven/",
+  "/2018/08/23/oathbringer-reread-chapter-thirty-eight/",
+  "/2018/08/30/oathbringer-reread-chapters-thirty-nine-and-forty/",
+  "/2018/09/06/oathbringer-reread-chapters-forty-one-and-forty-two/",
+  "/2018/09/13/oathbringer-reread-chapters-forty-three-and-forty-four/",
+  "/2018/09/20/oathbringer-reread-chapters-forty-five-and-forty-six/",
+  "/2018/09/27/oathbringer-reread-chapters-forty-seven-and-forty-eight/"
 ]
 
 episode = 1
@@ -57,7 +66,7 @@ for i in 1..(links.length)
   ending = false
   page.children.each do |e|
     ending = true if e.class?('squib') || e.class?('post-end-spacer')
-    e.remove if ending
+    e.remove if ending or e.class? 'ebook-link-wrapper'
   end
   html += "<h1>#{title}</h1>"
   html += page.inner_html

@@ -20,7 +20,7 @@ links.each do |link|
   episode += 1
 end
 
-html = ''
+html = '<title>Skyward</title>'
 for i in 1..(links.length)
   complete_html = Nokogiri::HTML(open("skyward/#{i}.html"))
   page = complete_html.css('article')[0]

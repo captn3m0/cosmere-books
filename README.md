@@ -102,7 +102,7 @@ wok-reread
 wor-reread
 ```
 
-If none is passed, all books will be generated.
+If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull).
 
 ## Oathbringer
 

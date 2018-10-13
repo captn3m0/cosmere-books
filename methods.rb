@@ -64,6 +64,15 @@ def gen_mobi(name, format)
   end
 end
 
+
+def inside_docker?
+  File.readlines("/proc/1/sched").each do |line|
+    return line.strip != "systemd (1, #threads: 1)"
+  end
+rescue Errno::ENOENT => e
+  false
+end
+
 def gen_pdf(name, format)
   if commands?(%w[pandoc convert wkhtmltopdf pdftk]) && format_match(format, :pdf)
     # Generate PDF as well
@@ -72,7 +81,12 @@ def gen_pdf(name, format)
     puts '[pdf] Generated html for pdf'
 
     # Print the pdf_html file to pdf
-    `wkhtmltopdf books/#{name}_pdf.html books/#{name}-nocover.pdf`
+    if inside_docker?
+      `xvfb-run wkhtmltopdf books/#{name}_pdf.html books/#{name}-nocover.pdf`
+    else
+      `wkhtmltopdf books/#{name}_pdf.html books/#{name}-nocover.pdf`
+    end
+
     puts '[pdf] Generated PDF without cover'
 
     # Join the cover and pdf together

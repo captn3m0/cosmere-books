@@ -58,7 +58,15 @@ You can read more at the announcement at [BrandonSanderson.com](https://brandons
 
 More details at https://www.tor.com/series/oathbringer-reread-brandon-sanderson/
 
+# Skyward
+
+> Skyward by #1 New York Times bestselling author Brandon Sanderson is the first book in an epic new series about a girl who dreams of becoming a pilot in a dangerous world at war for humanity’s future. We know you can't wait for the book to finally hit shelves on 11/6/18, so we're releasing new chapters here every week!
+
+See more details at [underlined](https://www.getunderlined.com/read/excerpt-reveal-start-reading-skyward-by-brandon-sanderson/) or [brandonsanderson.com](https://brandonsanderson.com/books/skyward/skyward/)
+
 ## Requirements
+
+Either [Docker](https://docs.docker.com/install/) installed or the following setup:
 
 - Ruby
 - Nokogiri gem installed (`gem install nokogiri`)
@@ -68,12 +76,33 @@ More details at https://www.tor.com/series/oathbringer-reread-brandon-sanderson/
 - (pdf) `wkhtmltopdf` for converting html to pdf
 - (pdf) `pdftk` to stitch the final PDF file
 
+### Notes
+
 - The final 2 tools can be skipped if you don't care about the PDF generation.
 - You can also skip calibre if you only want the EPUB file.
 - Edit the last line in `*.rb` to `:epub` / `:mobi`, `:pdf` to only trigger the specific builds
 - Windows users need wget. Download the latest wget.exe from https://eternallybored.org/misc/wget/ and add it's directory to the PATH environment variable or put it directly in C:\Windows.
 
 ## Generation
+
+If you have `docker` setup, run the following command inside an empty directory. This will download
+all the books from scratch and copy the final books into it.
+
+    docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest [bookname]
+
+The last is an optional bookname, which can be one of the following:
+
+```
+edgedancer-reread
+oathbringer
+oathbringer-reread
+skyward
+wok-prime
+wok-reread
+wor-reread
+```
+
+If none is passed, all books will be generated.
 
 ## Oathbringer
 
@@ -118,6 +147,12 @@ All the generated files will be saved with the filename `books/wok-prime.{epub|p
     ruby oathbringer-reread.rb
 
 All the generated files will be saved with the filename `books/oathbringer-reread.{epub|pdf|mobi|html}`. This generation might take a while the script attempts to strip out unnecessary HTML.
+
+## Skyward
+
+    ruby skyward.rb
+
+All the generated files will be saved with the filename `books/skyward.{epub|pdf|mobi|html}`. This generation might take a while the script attempts to strip out unnecessary HTML.
 
 ## Extra
 

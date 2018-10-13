@@ -1,5 +1,5 @@
 # LTS Image
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 LABEL maintainer="github.cosmere-ebooks@captnemo.in"
 
@@ -9,7 +9,10 @@ COPY Gemfile Gemfile.lock /src/
 
 WORKDIR /src
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update && \
+    apt-get install software-properties-common && \
+    add-apt-repository -y ppa:malteworld/ppa && \
+    apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     calibre \
     pandoc \
@@ -23,8 +26,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && gem install bundler --no-ri --no-rdoc \
     && bundle install \
     && apt-get remove -y --purge build-essential \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+    && apt-get clean
 
 COPY . /src
 

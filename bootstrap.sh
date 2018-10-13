@@ -8,5 +8,6 @@ bundle exec ruby oathbringer-reread.rb
 bundle exec ruby wok-prime.rb
 bundle exec ruby wok-reread.rb
 bundle exec ruby wor-reread.rb
+bundle exec ruby skyward.rb
 
 cp -r books /output/

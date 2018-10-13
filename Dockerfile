@@ -10,7 +10,7 @@ COPY Gemfile Gemfile.lock /src/
 WORKDIR /src
 
 RUN apt-get update && \
-    apt-get install software-properties-common && \
+    apt-get install -y software-properties-common && \
     add-apt-repository -y ppa:malteworld/ppa && \
     apt-get update && apt-get install -y --no-install-recommends \
     build-essential \

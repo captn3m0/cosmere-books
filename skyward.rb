@@ -15,7 +15,7 @@ links.each do |link|
   url = BASE + link
   puts "Download #{url}"
   unless File.exist? "skyward/#{episode}.html"
-    `wget --no-clobber "#{url}" --output-document "skyward/#{episode}.html"`
+    `curl --silent "#{url}" --output "skyward/#{episode}.html"`
   end
   episode += 1
 end

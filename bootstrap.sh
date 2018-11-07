@@ -12,6 +12,10 @@ if [ -z "$1" ]
     bundle exec ruby wok-reread.rb
     bundle exec ruby wor-reread.rb
     bundle exec ruby skyward.rb
+    pandoc -t epub https://brandonsanderson.com/defending-elysium/ \
+      --output=books/defending-elysium.epub \
+      --epub-cover-image=covers/defending-elysium.jpg \
+      --epub-metadata=metadata/defending-elysium.xml
   else
     bundle exec ruby "$1.rb"
 fi

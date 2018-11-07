@@ -10,6 +10,8 @@ Scripts to generate books from the [Cosmere]() using various public sources. Cur
 4.  Edgedancer Reread
 5.  Way of Kings Prime
 6.  Oathbringer Reread
+7.  Skyward (Serialized till Chapter 15)
+8.  Defending Elysium
 
 For obvious reasons, the converted ebooks are not part of this repo. You must download
 and run the script on your own machine to generate the copies.
@@ -63,6 +65,14 @@ More details at https://www.tor.com/series/oathbringer-reread-brandon-sanderson/
 > Skyward by #1 New York Times bestselling author Brandon Sanderson is the first book in an epic new series about a girl who dreams of becoming a pilot in a dangerous world at war for humanity’s future. We know you can't wait for the book to finally hit shelves on 11/6/18, so we're releasing new chapters here every week!
 
 See more details at [underlined](https://www.getunderlined.com/read/excerpt-reveal-start-reading-skyward-by-brandon-sanderson/) or [brandonsanderson.com](https://brandonsanderson.com/books/skyward/skyward/)
+
+# Defending Elysium
+
+> This story originally appeared in the October/November 2008 Asimov’s Science Fiction (in the US) and the UPC Science Fiction collection (in Europe). It was winner of the UPC science fiction award, and was the last short story Brandon wrote before he sold Elantris to Tor.
+
+> The story was first named honorable mention in a Writers of the Future contest in early 2003. (Brandon got the phone call from an editor buying Elantris in April 2003.) A few years later, he did a couple of serious revisions of the story and then submitted it to the UPC award in Spain. It won first place, and subsequently sold in the US to Asimov’s Science Fiction—which was Brandon’s first (and so far only) fiction appearance in a major print magazine. It was given an honorable mention in Gardner Dozois’s The Year’s Best Science Fiction anthology for 2008.
+
+More details at https://brandonsanderson.com/defending-elysium/. Annotations at https://brandonsanderson.com/annotation-Recent-Short-Stories-Defending-Elysium/
 
 ## Requirements
 
@@ -153,6 +163,10 @@ All the generated files will be saved with the filename `books/oathbringer-rerea
     ruby skyward.rb
 
 All the generated files will be saved with the filename `books/skyward.{epub|pdf|mobi|html}`. This generation might take a while the script attempts to strip out unnecessary HTML.
+
+## Defending Elysium
+
+    pandoc -t epub  https://brandonsanderson.com/defending-elysium/ -o defending-elysium.epub --epub-cover-image=covers/defending-elysium.jpg --epub-metadata=metadata/defending-elysium.xml
 
 ## Extra
 

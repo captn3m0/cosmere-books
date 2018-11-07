@@ -46,6 +46,9 @@ links = [
   "/2018/09/27/oathbringer-reread-chapters-forty-seven-and-forty-eight/",
   "/2018/10/04/oathbringer-reread-chapter-forty-nine/",
   "/2018/10/11/oathbringer-reread-chapters-fifty-and-fifty-one/",
+  "/2018/10/18/oathbringer-reread-chapter-fifty-two/",
+  "/2018/10/25/oathbringer-reread-chapter-fifty-three/",
+  "/2018/11/01/oathbringer-reread-chapter-fifty-four/"
 ]
 
 episode = 1

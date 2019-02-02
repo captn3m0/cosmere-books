@@ -57,6 +57,9 @@ links = [
   "/2018/12/20/oathbringer-reread-interlude-six-venli/",
   "/2019/01/03/oathbringer-reread-chapters-fifty-eight-and-fifty-nine/",
   "/2019/01/10/oathbringer-reread-chapter-sixty/",
+  "/2019/01/17/oathbringer-reread-chapter-sixty-one/",
+  "/2019/01/24/oathbringer-reread-chapter-sixty-two/",
+  "/2019/01/31/oathbringer-reread-chapter-sixty-three/",
 ]
 
 episode = 1

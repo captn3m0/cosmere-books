@@ -18,7 +18,7 @@ links = [
   '2017/10/12/edgedancer-reread-chapters-13-and-14/',
   '2017/10/19/edgedancer-reread-chapters-15-and-16/',
   '2017/10/26/edgedancer-reread-chapters-17-and-18/',
-  '2017/11/02/edgedancer-reread-chapters-19-and-20/',
+  '2017/11/02/edgedancer-reread-chapters-19-and-20/'
 ]
 
 episode = 1
@@ -34,7 +34,7 @@ end
 
 # Now we have all the files
 html = ''
-for i in 1..(links.length)
+(1..(links.length)).each do |i|
   complete_html = Nokogiri::HTML(open("edgedancer/#{i}.html"))
   page = complete_html.css('.entry-content')
   title = complete_html.css('.entry-title>a').inner_html

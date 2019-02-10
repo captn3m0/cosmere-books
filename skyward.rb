@@ -21,12 +21,11 @@ links.each do |link|
 end
 
 html = '<title>Skyward</title>'
-for i in 1..(links.length)
+(1..(links.length)).each do |i|
   complete_html = Nokogiri::HTML(open("skyward/#{i}.html"))
   page = complete_html.css('article')[0]
   html += page.inner_html
 end
-
 
 File.open('books/skyward.html', 'w') { |file| file.write(html) }
 puts '[html] Generated HTML file'

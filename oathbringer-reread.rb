@@ -60,6 +60,7 @@ links = [
   "/2019/01/17/oathbringer-reread-chapter-sixty-one/",
   "/2019/01/24/oathbringer-reread-chapter-sixty-two/",
   "/2019/01/31/oathbringer-reread-chapter-sixty-three/",
+  "/2019/02/07/oathbringer-reread-chapter-sixty-four/"
 ]
 
 episode = 1

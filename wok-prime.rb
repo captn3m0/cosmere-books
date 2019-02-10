@@ -41,7 +41,7 @@ links.each do |link|
 end
 
 html = ''
-for i in 1..(links.length)
+(1..(links.length)).each do |i|
   complete_html = Nokogiri::HTML(open("wok-prime/#{i}.html"))
   page = complete_html.css('article')[0]
 

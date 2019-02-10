@@ -20,12 +20,12 @@ end
 def command?(cmd)
   exts = ENV['PATHEXT'] ? ENV['PATHEXT'].split(';') : ['']
   ENV['PATH'].split(File::PATH_SEPARATOR).each do |path|
-    exts.each { |ext|
+    exts.each do |ext|
       exe = File.join(path, "#{cmd}#{ext}")
       return exe if File.executable?(exe) && !File.directory?(exe)
-    }
+    end
   end
-  return nil
+  nil
 end
 
 def commands?(commands)
@@ -38,6 +38,7 @@ end
 
 def gen_epub(name, format)
   return unless format_match(format, :epub)
+
   begin
     require 'paru/pandoc'
     Paru::Pandoc.new do
@@ -64,10 +65,9 @@ def gen_mobi(name, format)
   end
 end
 
-
 def inside_docker?
-  File.readlines("/proc/1/sched").each do |line|
-    return line.strip != "systemd (1, #threads: 1)"
+  File.readlines('/proc/1/sched').each do |line|
+    return line.strip != 'systemd (1, #threads: 1)'
   end
 rescue Errno::ENOENT => e
   false

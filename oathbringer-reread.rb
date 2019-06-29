@@ -48,7 +48,7 @@ links = [
   "/2018/10/11/oathbringer-reread-chapters-fifty-and-fifty-one/",
   "/2018/10/18/oathbringer-reread-chapter-fifty-two/",
   "/2018/10/25/oathbringer-reread-chapter-fifty-three/",
-  "/2018/11/01/oathbringer-reread-chapter-fifty-four/"
+  "/2018/11/01/oathbringer-reread-chapter-fifty-four/",
   "/2018/11/08/oathbringer-reread-chapter-fifty-five/",
   "/2018/11/15/oathbringer-reread-chapter-fifty-six/",
   "/2018/11/29/oathbringer-reread-chapter-fifty-seven/",
@@ -76,6 +76,11 @@ links = [
   "/2019/05/09/oathbringer-reread-chapter-seventy-six/",
   "/2019/05/16/oathbringer-reread-chapter-seventy-seven/",
   "/2019/05/23/oathbringer-reread-chapter-seventy-eight/",
+  "/2019/05/30/oathbringer-reread-chapters-seventy-nine-and-eighty/",
+  "/2019/06/06/oathbringer-reread-chapters-eighty-one-and-eighty-two/",
+  "/2019/06/13/oathbringer-reread-chapter-eighty-three/",
+  "/2019/06/20/oathbringer-reread-chapter-eighty-four/",
+  "/2019/06/27/oathbringer-reread-chapters-eighty-five-and-eighty-six/"
 ]
 
 episode = 1

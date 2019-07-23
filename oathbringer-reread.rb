@@ -80,7 +80,9 @@ links = [
   "/2019/06/06/oathbringer-reread-chapters-eighty-one-and-eighty-two/",
   "/2019/06/13/oathbringer-reread-chapter-eighty-three/",
   "/2019/06/20/oathbringer-reread-chapter-eighty-four/",
-  "/2019/06/27/oathbringer-reread-chapters-eighty-five-and-eighty-six/"
+  "/2019/06/27/oathbringer-reread-chapters-eighty-five-and-eighty-six/",
+  "/2019/07/11/oathbringer-reread-chapter-eighty-seven/",
+  "/2019/07/18/oathbringer-reread-parts-1-3-review/"
 ]
 
 episode = 1

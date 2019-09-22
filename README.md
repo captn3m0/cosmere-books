@@ -2,19 +2,18 @@
 
 ![Books in the Cosmere](https://i.imgur.com/NymmBq4.png)
 
-Scripts to generate books from the [Cosmere]() using various public sources. Currently supports the following books:
+Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere) using various public sources. Currently supports the following books:
 
 1.  Oathbringer (Serialized till Chapter 32)
 2.  Way of Kings Reread
 3.  Words of Radiance Reread
 4.  Edgedancer Reread
 5.  Way of Kings Prime
-6.  Oathbringer Reread
+6.  Oathbringer Reread (Ongoing)
 7.  Skyward (Serialized till Chapter 15)
 8.  Defending Elysium
 
-For obvious reasons, the converted ebooks are not part of this repo. You must download
-and run the script on your own machine to generate the copies.
+For obvious reasons, the converted ebooks are not part of this repo. You must download and run the script on your own machine to generate the copies.
 
 The code for this is mostly adapted from [hoshruba](https://github.captnemo.in/hoshruba).
 
@@ -22,9 +21,7 @@ You can download sample files (Lorem Ipsum) from <http://ge.tt/8R61oXm2> to see 
 
 ## Oathbringer
 
-Tor.com is publishing Oathbringer in serialized form till Chapter 32. This script
-downloads all of these posts and converts them into a publishable format, including
-epub, mobi, pdf and html. You can find the tor.com announcement at https://www.tor.com/2017/08/15/brandon-sanderson-oathbringer-serialization-announcement/.
+Tor.com is publishing Oathbringer in serialized form till Chapter 32. This script downloads all of these posts and converts them into a publishable format, including epub, mobi, pdf and html. You can find the tor.com announcement at https://www.tor.com/2017/08/15/brandon-sanderson-oathbringer-serialization-announcement/.
 
 The script figures out all the chapter URLs, so I just run it every Tuesday now (it doesn't need updates).
 
@@ -54,7 +51,7 @@ More details at https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
 
 You can read more at the announcement at [BrandonSanderson.com](https://brandonsanderson.com/chapters-from-the-original-draft-of-the-way-of-kings-available-in-anthology-to-benefit-robison-wells/)
 
-# Oathbringer Reread
+# Oathbringer Reread (Ongoing)
 
 > Join Alice Arneson and Lyndsey Luther for a reread of Brandon Sanderson’s Oathbringer, the third novel in the Stormlight Archive epic fantasy series.
 

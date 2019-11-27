@@ -163,11 +163,13 @@ All the generated files will be saved with the filename `books/skyward.{epub|pdf
 
 ## Defending Elysium
 
+This is just lazily using Pandoc, since there is just a single page.
+
     pandoc -t epub  https://brandonsanderson.com/defending-elysium/ -o defending-elysium.epub --epub-cover-image=covers/defending-elysium.jpg --epub-metadata=metadata/defending-elysium.xml
 
 ## Extra
 
-If you'd like to see any other books covered here, please create an issue, or reach out to me: <https://captnemo.in/contact/>
+If you'd like to see any other books covered here, please [create an issue](https://github.com/captn3m0/cosmere-books/issues/new), or reach out to me: <https://captnemo.in/contact/>
 
 # LICENSE
 

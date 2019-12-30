@@ -77,10 +77,13 @@ More details at https://brandonsanderson.com/defending-elysium/. Annotations at 
 
 ## Generation
 
-If you have `docker` setup, run the following command inside an empty directory. This will download
+Once you have `docker` setup, run the following command inside an empty directory. This will download
 all the books from scratch and copy the final books into it.
 
-    docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest [bookname]
+```bash
+docker pull captn3m0/cosmere-books
+docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest [bookname]
+```
 
 The last is an optional bookname, which can be one of the following:
 
@@ -96,9 +99,17 @@ wor-reread
 
 If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull).
 
+So if you'd like to get a ebook for the Way of Kings re-read, run the following command:
+
+	docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest wok-reread
+
 ## Extra
 
 If you'd like to see any other books covered here, please [create an issue](https://github.com/captn3m0/cosmere-books/issues/new), or reach out to me: <https://captnemo.in/contact/>
+
+## Development
+
+If you'd like to hack on the project locally, see [HACKING.md](HACKING.md).
 
 # LICENSE
 

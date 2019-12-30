@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 require 'date'
 require 'fileutils'
 require 'nokogiri'
 require_relative './methods'
 FileUtils.mkdir_p('oathbringer')
 
-BASE = 'https://www.tor.com/2017/'.freeze
+BASE = 'https://www.tor.com/2017/'
 
 links = [
   '08/22/oathbringer-brandon-sanderson-prologue/',

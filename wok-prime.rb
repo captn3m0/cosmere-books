@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'date'
 require 'fileutils'
 require 'nokogiri'
@@ -5,7 +7,7 @@ require_relative './methods'
 
 FileUtils.mkdir_p('wok-prime')
 
-BASE = 'https://brandonsanderson.com/'.freeze
+BASE = 'https://brandonsanderson.com/'
 
 links = [
   'the-way-of-kings-prime-jeksonsonvallano/',

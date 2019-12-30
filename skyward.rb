@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 require 'fileutils'
 require 'nokogiri'
 require_relative './methods'
 
 FileUtils.mkdir_p('skyward')
 
-BASE = 'https://www.getunderlined.com'.freeze
+BASE = 'https://www.getunderlined.com'
 
 links = [
   '/read/excerpt-reveal-start-reading-skyward-by-brandon-sanderson/'

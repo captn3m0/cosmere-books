@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'date'
 require 'fileutils'
 require 'nokogiri'
@@ -5,7 +7,7 @@ require_relative './methods'
 
 FileUtils.mkdir_p('wok')
 
-BASE = 'https://www.tor.com/'.freeze
+BASE = 'https://www.tor.com/'
 
 links = [
   '2013/03/14/the-way-of-kings-reread-introduction/',

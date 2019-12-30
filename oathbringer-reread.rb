@@ -102,7 +102,10 @@ links = [
   '/2019/10/31/oathbringer-reread-chapter-one-hundred-three/',
   '/2019/11/07/oathbringer-reread-chapter-one-hundred-four/',
   '/2019/11/14/oathbringer-reread-chapter-one-hundred-five/',
-  '/2019/11/21/oathbringer-reread-chapter-one-hundred-six/'
+  '/2019/11/21/oathbringer-reread-chapter-one-hundred-six/',
+  '/2019/12/05/oathbringer-reread-chapter-one-hundred-and-seven/',
+  '/2019/12/12/oathbringer-reread-chapter-one-hundred-eight/',
+  '/2019/12/19/oathbringer-reread-chapter-one-hundred-and-nine/'
 ]
 
 episode = 1

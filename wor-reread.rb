@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'date'
 require 'fileutils'
 require 'nokogiri'
@@ -5,7 +7,7 @@ require_relative './methods'
 
 FileUtils.mkdir_p('wor')
 
-BASE = 'https://www.tor.com'.freeze
+BASE = 'https://www.tor.com'
 
 links = [
   '/2014/06/12/introducing-the-words-of-radiance-reread/',

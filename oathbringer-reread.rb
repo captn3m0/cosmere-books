@@ -110,6 +110,8 @@ links = [
   '/2020/01/09/oathbringer-reread-chapter-one-hundred-ten/',
   '/2020/01/23/oathbringer-reread-chapter-one-hundred-and-twelve-one-hundred-and-thirteen-and-venli-interlude/',
   '/2020/01/30/oathbringer-reread-rysn-and-teft-interludes-thirteen-and-fourteen/',
+  '/2020/02/13/oathbringer-reread-chapter-one-hundred-and-fifteen/',
+  '/2020/02/20/oathbringer-reread-chapter-one-hundred-sixteen/',
 ]
 
 episode = 1

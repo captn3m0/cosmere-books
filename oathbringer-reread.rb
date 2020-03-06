@@ -112,6 +112,7 @@ links = [
   '/2020/01/30/oathbringer-reread-rysn-and-teft-interludes-thirteen-and-fourteen/',
   '/2020/02/13/oathbringer-reread-chapter-one-hundred-and-fifteen/',
   '/2020/02/20/oathbringer-reread-chapter-one-hundred-sixteen/',
+  '/2020/02/27/oathbringer-reread-chapter-one-hundred-seventeen/'
 ]
 
 episode = 1
@@ -119,7 +120,7 @@ episode = 1
 links.each do |link|
   url = BASE + link
   puts "Download #{url}"
-  unless File.exist? "wor/#{episode}.html"
+  unless File.exist? "oathbringer-reread/#{episode}.html"
     `wget --no-clobber "#{url}" --output-document "oathbringer-reread/#{episode}.html" -o /dev/null`
   end
   episode += 1

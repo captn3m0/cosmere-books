@@ -112,7 +112,9 @@ links = [
   '/2020/01/30/oathbringer-reread-rysn-and-teft-interludes-thirteen-and-fourteen/',
   '/2020/02/13/oathbringer-reread-chapter-one-hundred-and-fifteen/',
   '/2020/02/20/oathbringer-reread-chapter-one-hundred-sixteen/',
-  '/2020/02/27/oathbringer-reread-chapter-one-hundred-seventeen/'
+  '/2020/02/27/oathbringer-reread-chapter-one-hundred-seventeen/',
+  '/2020/03/05/oathbringer-reread-chapter-one-hundred-eighteen/',
+  '/2020/03/12/oathbringer-reread-chapter-one-hundred-nineteen/'
 ]
 
 episode = 1

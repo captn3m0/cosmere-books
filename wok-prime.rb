@@ -29,6 +29,12 @@ links = [
   'the-way-of-kings-chapter-15-d/',
   'the-way-of-kings-chapter-16-d/',
   'the-way-of-kings-chapter-18-d/'
+  'the-way-of-kings-chapter-20-d/',
+  'the-way-of-kings-chapters-23-and-24-d/',
+  'the-way-of-kings-chapter-26-d/',
+  'the-way-of-kings-chapter-28-d/',
+  'the-way-of-kings-early-brainstorms-outlines/',
+  'the-way-of-kings-tiens-death-attempt-1/',
 ]
 
 episode = 1

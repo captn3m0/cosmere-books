@@ -48,6 +48,7 @@ def gen_epub(name, format)
       to 'epub'
       epub_metadata "metadata/#{name}.xml"
       epub_cover_image "covers/#{name}.jpg"
+      metadata title: name
       data_dir Dir.pwd
       output "books/#{name}.epub"
     end.convert File.read("books/#{name}.html")

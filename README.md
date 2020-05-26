@@ -9,7 +9,7 @@ Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere
 3.  Words of Radiance Reread
 4.  Edgedancer Reread
 5.  Way of Kings Prime
-6.  Oathbringer Reread (Ongoing)
+6.  Oathbringer Reread
 7.  Skyward (Serialized till Chapter 15)
 8.  Defending Elysium
 
@@ -51,7 +51,7 @@ More details at https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
 
 You can read more at the announcement at [BrandonSanderson.com](https://brandonsanderson.com/chapters-from-the-original-draft-of-the-way-of-kings-available-in-anthology-to-benefit-robison-wells/)
 
-# Oathbringer Reread (Ongoing)
+# Oathbringer Reread
 
 > Join Alice Arneson and Lyndsey Luther for a reread of Brandon Sanderson’s Oathbringer, the third novel in the Stormlight Archive epic fantasy series.
 

@@ -116,6 +116,10 @@ links = [
   '/2020/03/05/oathbringer-reread-chapter-one-hundred-eighteen/',
   '/2020/03/12/oathbringer-reread-chapter-one-hundred-nineteen/',
   '/2020/03/19/oathbringer-reread-chapter-one-hundred-twenty-part-1/'
+  '/2020/03/26/oathbringer-reread-chapter-one-hundred-twenty-part-two/',
+  '/2020/04/02/oathbringer-reread-chapter-one-hundred-twenty-one/',
+  '/2020/04/09/oathbringer-reread-chapter-one-hundred-twenty-two/',
+  '/2020/04/16/oathbringer-reread-epilogue-and-ars-arcanum/',
 ]
 
 episode = 1

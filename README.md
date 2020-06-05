@@ -12,6 +12,7 @@ Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere
 6.  Oathbringer Reread
 7.  Skyward (Serialized till Chapter 15)
 8.  Defending Elysium
+9.  Dark One (Preview Chapter)
 
 For obvious reasons, the converted ebooks are not part of this repo. You must download and run the script on your own machine to generate the copies.
 
@@ -71,6 +72,16 @@ See more details at [underlined](https://www.getunderlined.com/read/excerpt-reve
 
 More details at https://brandonsanderson.com/defending-elysium/. Annotations at https://brandonsanderson.com/annotation-Recent-Short-Stories-Defending-Elysium/
 
+# Dark One
+
+>Brandon Sanderson’s Dark One is a break from the norm; it’s a graphic novel from Vault Comics, originally announced as being in the works two years ago, based on an original idea from Sanderson. The book will be written by Collin Kelly and Jackson Lanzing from a story by Sanderson, with art by Nathan Gooden and colors from Kurt Michael Russell. Lettering on the project comes from Deron Bennett.
+
+> The chapter below was originally intended to be Vault Comics’ Free Comic Book Day release this year.
+
+More details at <https://www.hollywoodreporter.com/heat-vision/dark-one-excerpt-brandon-sanderson-unveils-fantasy-graphic-novel-1297122>.
+
+The script generates a CBZ file.
+
 ## Requirements
 
 [Docker](https://docs.docker.com/install/) installed.
@@ -95,6 +106,7 @@ skyward
 wok-prime
 wok-reread
 wor-reread
+dark-one
 ```
 
 If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull).

@@ -16,6 +16,9 @@ if [ -z "$1" ]
       --output=books/defending-elysium.epub \
       --epub-cover-image=covers/defending-elysium.jpg \
       --epub-metadata=metadata/defending-elysium.xml
+    ./dark-one-preview.sh
+  elif [[ "$1" == "dark-one" ]]; then
+    ./dark-one-preview.sh
   else
     bundle exec ruby "$1.rb"
 fi

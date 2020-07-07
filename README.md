@@ -8,7 +8,7 @@ Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere
 2.  Way of Kings Reread
 3.  Words of Radiance Reread
 4.  Edgedancer Reread
-5.  Way of Kings Prime
+5.  ~~Way of Kings Prime~~
 6.  Oathbringer Reread
 7.  Skyward (Serialized till Chapter 15)
 8.  Defending Elysium
@@ -45,6 +45,8 @@ Join Alice Arneson and Lyndsey Luther for a reread of Brandon Sanderson’s Cosm
 More details at https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
 
 ## Way of Kings: Prime
+
+Brandon published Way of Kings Prime as a free ebook, which you can download from here: https://www.brandonsanderson.com/the-way-of-kings-prime/. It is now available for free in EPUB/MOBI/PDF formats from the link.
 
 > For it([Altered Perceptions anthology](https://www.indiegogo.com/projects/altered-perceptions)), I’m letting people see—for the first time—a large chunk of the original version of The Way of Kings, which I wrote in 2002–2003. This version is very different, and involves a different course in life for Kaladin as a character—all due to a simple decision he makes one way in this book, but a completely different way in the published novel.
 

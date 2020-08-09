@@ -13,12 +13,17 @@ Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere
 7.  Skyward (Serialized till Chapter 15)
 8.  Defending Elysium
 9.  Dark One (Preview Chapter)
+10. Rhythm of War (Serialized publication on tor.com in progress)
 
 For obvious reasons, the converted ebooks are not part of this repo. You must download and run the script on your own machine to generate the copies.
 
 The code for this is mostly adapted from [hoshruba](https://github.captnemo.in/hoshruba).
 
 You can download sample files (Lorem Ipsum) from <http://ge.tt/8R61oXm2> to see a sample of how the generated files look.
+
+## Rhythm of War
+
+>The chapter-by-chapter serialization of Rhythm of War, Brandon Sanderson’s fourth volume in The Stormlight Archive series. New chapters go live every Tuesday up to the November 17, 2020 release date.
 
 ## Oathbringer
 
@@ -107,6 +112,7 @@ wok-prime
 wok-reread
 wor-reread
 dark-one
+row
 ```
 
 If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull).

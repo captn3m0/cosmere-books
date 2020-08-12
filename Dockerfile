@@ -1,5 +1,5 @@
 # LTS Image
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 
 LABEL maintainer="github.cosmere-ebooks@captnemo.in"
 
@@ -10,20 +10,18 @@ COPY Gemfile Gemfile.lock /src/
 WORKDIR /src
 
 RUN apt-get update && \
-    apt-get install -y software-properties-common && \
-    add-apt-repository -y ppa:malteworld/ppa && \
     apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     calibre \
     pandoc \
-    pdftk \
+    pdftk-java \
     ruby \
     ruby-dev \
     wget \
     wkhtmltopdf \
     xvfb \
     zlib1g-dev \
-    && gem install bundler --no-ri --no-rdoc \
+    && gem install bundler \
     && bundle install \
     && apt-get remove -y --purge build-essential \
     && apt-get clean

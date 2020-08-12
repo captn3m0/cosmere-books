@@ -11,7 +11,8 @@ BASE = 'https://www.tor.com/2020/'
 links = [
   '07/23/read-rhythm-of-war-by-brandon-sanderson-prologue-and-chapter-one/',
   '07/28/read-rhythm-of-war-by-brandon-sanderson-chapters-two-and-three/',
-  '08/04/read-rhythm-of-war-by-brandon-sanderson-chapters-four-and-five/'
+  '08/04/read-rhythm-of-war-by-brandon-sanderson-chapters-four-and-five/',
+  '08/11/read-rhythm-of-war-by-brandon-sanderson-chapter-six/'
 ]
 
 # Automatically adds all recent chapters

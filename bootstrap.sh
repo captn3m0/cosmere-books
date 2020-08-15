@@ -8,10 +8,11 @@ if [ -z "$1" ]
     bundle exec ruby edgedancer-reread.rb
     bundle exec ruby oathbringer.rb
     bundle exec ruby oathbringer-reread.rb
-    bundle exec ruby wok-prime.rb
     bundle exec ruby wok-reread.rb
     bundle exec ruby wor-reread.rb
     bundle exec ruby skyward.rb
+    bundle exec ruby row.rb
+    bundle exec ruby mythwalker.rb
     pandoc -t epub https://brandonsanderson.com/defending-elysium/ \
       --output=books/defending-elysium.epub \
       --epub-cover-image=covers/defending-elysium.jpg \

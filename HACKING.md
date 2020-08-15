@@ -53,11 +53,11 @@ To generate the book:
 
 All the generated files will be saved with the filename `books/edgedancer-reread.{epub|pdf|mobi|html}`. This generation might take a while because it contains a lot of images. It doesn't have the best possible index either, but is still pretty readable.
 
-### Way of Kings Prime
+### Warbreaker Prime: Mythwalker
 
-    ruby wok-prime.rb
+    ruby mythwalker.rb
 
-All the generated files will be saved with the filename `books/wok-prime.{epub|pdf|mobi|html}`. This generation might take a while the script attempts to strip out unnecessary HTML.
+All the generated files will be saved with the filename `books/mythwalker.{epub|pdf|mobi|html}`. This generation might take a while the script attempts to strip out unnecessary HTML.
 
 ### Oathbringer Reread
 

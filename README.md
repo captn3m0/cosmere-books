@@ -5,15 +5,15 @@
 Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere) using various public sources. Currently supports the following books:
 
 1.  Oathbringer (Serialized till Chapter 32)
-2.  Way of Kings Reread
-3.  Words of Radiance Reread
-4.  Edgedancer Reread
-5.  ~~Way of Kings Prime~~
-6.  Oathbringer Reread
-7.  Skyward (Serialized till Chapter 15)
-8.  Defending Elysium
-9.  Dark One (Preview Chapter)
-10. Rhythm of War (Serialized publication on tor.com in progress)
+1.  Way of Kings Reread
+1.  Words of Radiance Reread
+1.  Edgedancer Reread
+1.  Oathbringer Reread
+1.  Skyward (Serialized till Chapter 15)
+1.  Defending Elysium
+1.  Dark One (Preview Chapter)
+1. Rhythm of War (Serialized publication on tor.com in progress)
+1. Warbreaker Prime: Mythwalker
 
 For obvious reasons, the converted ebooks are not part of this repo. You must download and run the script on your own machine to generate the copies.
 
@@ -33,19 +33,19 @@ Tor.com is publishing Oathbringer in serialized form till Chapter 32. This scrip
 
 Join Michael Pye (aka The Mad Hatter) and Carl Engle-Laird as they dive into the details of Sanderson’s complex new world of Roshar.
 
-Find out more at https://www.tor.com/features/series/the-way-of-kings-reread-on-torcom/
+Find out more at <https://www.tor.com/features/series/the-way-of-kings-reread-on-torcom/>.
 
 ## Words of Radiance Reread
 
 Welcome to the reread of Brandon Sanderson’s second Stormlight Archive series book Words of Radiance! This reread will be a collaborative effort between Tor.com’s own editorial assistant Carl Engle-Laird and long-time Tor.com commenter and Sanderson beta-reader Alice Arneson. This new partnership promises to be as potent as that between spren and Radiant. Join them in the Storm Cellar as they evaluate, discuss, question, and generally kibitz their way through the Words of Radiance.
 
-More details at https://www.tor.com/series/words-of-radiance-reread-on-torcom/
+More details at <https://www.tor.com/series/words-of-radiance-reread-on-torcom/>
 
 ## Edgedancer Reread
 
 Join Alice Arneson and Lyndsey Luther for a reread of Brandon Sanderson’s Cosmere novella, Edgedancer, which fills in some of the details for Lift and Nalan between their appearances in Words of Radiance and the next time we see them in Oathbringer.
 
-More details at https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
+More details at <https://www.tor.com/series/edgedancer-reread-brandon-sanderson/>
 
 ## Way of Kings: Prime
 
@@ -87,6 +87,16 @@ More details at <https://www.hollywoodreporter.com/heat-vision/dark-one-excerpt-
 
 The script generates a CBZ file.
 
+# Warbreaker Prime: Mythwalker
+
+Below description from [Sanderson's website](https://www.brandonsanderson.com/warbreaker-prime-mythwalker-prologue/), written by Peter:
+
+>When Brandon shelved Mythwalker in August 2001 because he felt it wasn’t working (one of its issues was that it felt clichéd, but there are other issues that I’ll discuss following later chapters), he planned to get back to it eventually.
+But there were still elements and characters left over in those books that could be used to tell other stories. Warbreaker follows one of the storylines from Mythwalker that was left when the elements used in the Mistborn trilogy were taken out.
+But that is not all that Mythwalker is. Its main character and its magic system have not been cannibalized. What you will read here [...] is an interesting story in its own right, even though it has problems. And some of you will be frustrated that the story remains unfinished.
+
+>So it is probably best to view these chapters just as a window on early Brandon Sanderson, when he tried something and failed. This was the first novel in Brandon’s adult writing career that he started writing but never finished. If you want insight into his creative process, I think this is a great place to look.
+
 ## Requirements
 
 [Docker](https://docs.docker.com/install/) installed.
@@ -108,16 +118,16 @@ edgedancer-reread
 oathbringer
 oathbringer-reread
 skyward
-wok-prime
 wok-reread
 wor-reread
 dark-one
 row
+mythwalker
 ```
 
 If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull).
 
-So if you'd like to get a ebook for the Way of Kings re-read, run the following command:
+As an example, you'd like to get a ebook for the Way of Kings re-read, run the following command:
 
 	docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest wok-reread
 

@@ -51,12 +51,6 @@ More details at <https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
 
 Brandon published Way of Kings Prime as a free ebook, which you can download from here: https://www.brandonsanderson.com/the-way-of-kings-prime/. It is now available for free in EPUB/MOBI/PDF formats from the link.
 
-> For it([Altered Perceptions anthology](https://www.indiegogo.com/projects/altered-perceptions)), I’m letting people see—for the first time—a large chunk of the original version of The Way of Kings, which I wrote in 2002–2003. This version is very different, and involves a different course in life for Kaladin as a character—all due to a simple decision he makes one way in this book, but a completely different way in the published novel.
-
-> These chapters are quite fun, as I consider what happened in The Way of Kings Prime (as I now call it) to be an "alternate reality" version of the events in the published books. The characters are almost all exactly the same people, but their backstories are different, and that has transformed who they are and how they react to the world around them. Roshar is similar, yet wildly different, as this was before I brought in the spren as a major world element.
-
-You can read more at the announcement at [BrandonSanderson.com](https://brandonsanderson.com/chapters-from-the-original-draft-of-the-way-of-kings-available-in-anthology-to-benefit-robison-wells/)
-
 # Oathbringer Reread
 
 > Join Alice Arneson and Lyndsey Luther for a reread of Brandon Sanderson’s Oathbringer, the third novel in the Stormlight Archive epic fantasy series.

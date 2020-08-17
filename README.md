@@ -1,4 +1,4 @@
-# cosmere-books ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/captn3m0/cosmere-books) ![Docker Pulls](https://img.shields.io/docker/pulls/captn3m0/cosmere-books)
+# cosmere-books ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/captn3m0/cosmere-books) ![Docker Pulls](https://img.shields.io/docker/pulls/captn3m0/cosmere-books) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/captn3m0/cosmere-books/latest) ![GitHub](https://img.shields.io/github/license/captn3m0/cosmere-books) ![GitHub last commit](https://img.shields.io/github/last-commit/captn3m0/cosmere-books)
 
 ![Books in the Cosmere](https://i.imgur.com/NymmBq4.png)
 

@@ -51,19 +51,19 @@ More details at <https://www.tor.com/series/edgedancer-reread-brandon-sanderson/
 
 Brandon published Way of Kings Prime as a free ebook, which you can download from here: https://www.brandonsanderson.com/the-way-of-kings-prime/. It is now available for free in EPUB/MOBI/PDF formats from the link.
 
-# Oathbringer Reread
+## Oathbringer Reread
 
 > Join Alice Arneson and Lyndsey Luther for a reread of Brandon Sanderson’s Oathbringer, the third novel in the Stormlight Archive epic fantasy series.
 
 More details at https://www.tor.com/series/oathbringer-reread-brandon-sanderson/
 
-# Skyward
+## Skyward
 
 > Skyward by #1 New York Times bestselling author Brandon Sanderson is the first book in an epic new series about a girl who dreams of becoming a pilot in a dangerous world at war for humanity’s future. We know you can't wait for the book to finally hit shelves on 11/6/18, so we're releasing new chapters here every week!
 
 See more details at [underlined](https://www.getunderlined.com/read/excerpt-reveal-start-reading-skyward-by-brandon-sanderson/) or [brandonsanderson.com](https://brandonsanderson.com/books/skyward/skyward/)
 
-# Defending Elysium
+## Defending Elysium
 
 > This story originally appeared in the October/November 2008 Asimov’s Science Fiction (in the US) and the UPC Science Fiction collection (in Europe). It was winner of the UPC science fiction award, and was the last short story Brandon wrote before he sold Elantris to Tor.
 
@@ -71,7 +71,7 @@ See more details at [underlined](https://www.getunderlined.com/read/excerpt-reve
 
 More details at https://brandonsanderson.com/defending-elysium/. Annotations at https://brandonsanderson.com/annotation-Recent-Short-Stories-Defending-Elysium/
 
-# Dark One
+## Dark One
 
 >Brandon Sanderson’s Dark One is a break from the norm; it’s a graphic novel from Vault Comics, originally announced as being in the works two years ago, based on an original idea from Sanderson. The book will be written by Collin Kelly and Jackson Lanzing from a story by Sanderson, with art by Nathan Gooden and colors from Kurt Michael Russell. Lettering on the project comes from Deron Bennett.
 
@@ -81,7 +81,7 @@ More details at <https://www.hollywoodreporter.com/heat-vision/dark-one-excerpt-
 
 The script generates a CBZ file.
 
-# Warbreaker Prime: Mythwalker
+## Warbreaker Prime: Mythwalker
 
 Below description from [Sanderson's website](https://www.brandonsanderson.com/warbreaker-prime-mythwalker-prologue/), written by Peter:
 

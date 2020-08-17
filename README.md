@@ -108,22 +108,22 @@ docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest [booknam
 The last is an optional bookname, which can be one of the following:
 
 ```
+dark-one
 edgedancer-reread
+mythwalker
 oathbringer
 oathbringer-reread
+row
 skyward
 wok-reread
 wor-reread
-dark-one
-row
-mythwalker
 ```
 
 If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull).
 
-As an example, you'd like to get a ebook for the Way of Kings re-read, run the following command:
+As an example, you'd like to get a ebook for Rhythm of War, run the following command:
 
-	docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest wok-reread
+	docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest row
 
 ## Extra
 

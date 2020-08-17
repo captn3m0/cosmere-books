@@ -16,9 +16,7 @@ episode = 1
 links.each do |link|
   url = BASE + link
   puts "Download #{url}"
-  unless File.exist? "skyward/#{episode}.html"
-    `curl --silent "#{url}" --output "skyward/#{episode}.html"`
-  end
+  `curl --silent "#{url}" --output "skyward/#{episode}.html"` unless File.exist? "skyward/#{episode}.html"
   episode += 1
 end
 

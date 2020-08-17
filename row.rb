@@ -25,6 +25,7 @@ loop do
   day = links.last.split('/')[1]
   next_date = Date.new(2020, month.to_i, day.to_i) + 7
   break if next_date > Date.today
+
   ending_chapter = [chapter + 2, 32].min
   links << "#{next_date.strftime('%m')}/#{next_date.strftime('%d')}/read-rhythm-of-war-by-brandon-sanderson-chapters-#{chapter}-#{ending_chapter}/"
   chapter += 3
@@ -45,7 +46,7 @@ end
 
 # Now we have all the files
 html = ''
-for i in 1..(links.length)
+(1..(links.length)).each do |i|
   page = Nokogiri::HTML(open("row/#{i}.html")).css('.entry-content')
   start = ending = false
   page.children.each do |e|

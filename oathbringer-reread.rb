@@ -105,8 +105,7 @@ links = [
   '/2019/11/21/oathbringer-reread-chapter-one-hundred-six/',
   '/2019/12/05/oathbringer-reread-chapter-one-hundred-and-seven/',
   '/2019/12/12/oathbringer-reread-chapter-one-hundred-eight/',
-  '/2019/12/19/oathbringer-reread-chapter-one-hundred-and-nine/'
-  '/2020/01/09/oathbringer-reread-chapter-one-hundred-ten/',
+  '/2019/12/19/oathbringer-reread-chapter-one-hundred-and-nine/',
   '/2020/01/09/oathbringer-reread-chapter-one-hundred-ten/',
   '/2020/01/23/oathbringer-reread-chapter-one-hundred-and-twelve-one-hundred-and-thirteen-and-venli-interlude/',
   '/2020/01/30/oathbringer-reread-rysn-and-teft-interludes-thirteen-and-fourteen/',
@@ -115,11 +114,11 @@ links = [
   '/2020/02/27/oathbringer-reread-chapter-one-hundred-seventeen/',
   '/2020/03/05/oathbringer-reread-chapter-one-hundred-eighteen/',
   '/2020/03/12/oathbringer-reread-chapter-one-hundred-nineteen/',
-  '/2020/03/19/oathbringer-reread-chapter-one-hundred-twenty-part-1/'
+  '/2020/03/19/oathbringer-reread-chapter-one-hundred-twenty-part-1/',
   '/2020/03/26/oathbringer-reread-chapter-one-hundred-twenty-part-two/',
   '/2020/04/02/oathbringer-reread-chapter-one-hundred-twenty-one/',
   '/2020/04/09/oathbringer-reread-chapter-one-hundred-twenty-two/',
-  '/2020/04/16/oathbringer-reread-epilogue-and-ars-arcanum/',
+  '/2020/04/16/oathbringer-reread-epilogue-and-ars-arcanum/'
 ]
 
 episode = 1

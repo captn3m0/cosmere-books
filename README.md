@@ -12,8 +12,8 @@ Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere
 1.  Skyward (Serialized till Chapter 15)
 1.  Defending Elysium
 1.  Dark One (Preview Chapter)
-1. Rhythm of War (Serialized publication on tor.com in progress)
-1. Warbreaker Prime: Mythwalker
+1.  Rhythm of War (Serialized publication on tor.com in progress) (with Annotations)
+1.  Warbreaker Prime: Mythwalker
 
 For obvious reasons, the converted ebooks are not part of this repo. You must download and run the script on your own machine to generate the copies.
 
@@ -24,6 +24,8 @@ You can download sample files (Lorem Ipsum) from <http://ge.tt/8R61oXm2> to see 
 ## Rhythm of War
 
 >The chapter-by-chapter serialization of Rhythm of War, Brandon Sanderson’s fourth volume in The Stormlight Archive series. New chapters go live every Tuesday up to the November 17, 2020 release date.
+
+This supports the annotations that Brandon is publishing on Reddit.
 
 ## Oathbringer
 

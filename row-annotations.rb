@@ -39,3 +39,16 @@ Part of the trick was to convey just how exhausted Kaladin is, mentally while in
 
 You'll get a Moash viewpoint in a future interlude, which should help explain where his mindset is these days. As for Kaladin, well, it's becoming more and more difficult for him to maintain the lie that everything is fine.
 EOT
+
+
+$annotations[6] = <<EOT
+So, I might have mentioned this before, but one of the oldest (and eventually discarded) scenes I had for this book was Kaladin returning home. It's existed in some form since I was first developing Dragonsteel in my late teens. It eventually happened last book, but I gave Kaladin the chance to ruminate on it in this book.
+
+The very first version was from Dragonsteel--and was supposed to begin the second book, which I never wrote. In that story, most everyone was around a bronze age level of technology, but one kingdom (led by a mysterious figure who knew far too much) was rapidly progressing his people technologically. So the protagonist, after joining his army and fighting on the Shattered Plains with Bridge Four, eventually was to return home in full plate armor to confront the version of Roshone who ruled there.
+
+Like I said, that never happened. But I eventually took many of those ideas and wrote The Way of Kings Prime. Though Bridge Four didn't make the jump yet, Dalinar did--and so did the idea of the young peasant boy forced into war. The second book of THAT was to begin with Merin, returning home from war, to find something very strange at home--which eventually turned out to be related to that book's version of the Voidbringers. (And Merin's nacent windrunner abilities would let him kill one. He would haul the head back to Dalinar as proof that something was up.)
+
+That book never got written either. I finally got to put the scene in, mostly, in Oathbringer. But, like most of the revisions to the story over the years, it became a little less triumphant and a little more messy. (Intentionally messy, to more accurately depict how events in life are often full of contrasting emotions.)
+
+It was interesting for me to reflect on those 25+ years of imagining one scene, evolving over the years, as I put a kind of capstone on it in this book.
+EOT

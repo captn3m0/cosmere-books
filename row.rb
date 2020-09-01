@@ -16,26 +16,11 @@ links = [
   '08/11/read-rhythm-of-war-by-brandon-sanderson-chapter-six/',
   '08/18/read-rhythm-of-war-by-brandon-sanderson-chapter-seven/',
   '08/25/read-rhythm-of-war-by-brandon-sanderson-chapter-eight/',
+  '09/01/read-rhythm-of-war-by-brandon-sanderson-chapter-nine/'
 ]
 
 # Automatically adds all recent chapters
 puts 'Downloading all found links'
-chapter = 5
-next_date = Date.new(1970, 1, 1)
-loop do
-  links.last.split('/')
-  month = links.last.split('/').first
-  day = links.last.split('/')[1]
-  next_date = Date.new(2020, month.to_i, day.to_i) + 7
-  break if next_date > Date.today
-
-  ending_chapter = [chapter + 2, 32].min
-  links << "#{next_date.strftime('%m')}/#{next_date.strftime('%d')}/read-rhythm-of-war-by-brandon-sanderson-chapters-#{chapter}-#{ending_chapter}/"
-  chapter += 3
-  break if next_date + 7 > Date.today
-end
-next_date += 7
-
 episode = 1
 
 links.each do |link|
@@ -69,8 +54,6 @@ html = ''
   end
   url = BASE + links[i - 1]
 end
-
-html += "<p>Next chapter out on #{next_date}</p>"
 
 $annotations.each_with_index do |a, i|
   if a

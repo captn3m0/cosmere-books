@@ -76,3 +76,23 @@ All the generated files will be saved with the filename `books/skyward.{epub|pdf
 This is just lazily using Pandoc, since there is just a single page.
 
     pandoc -t epub  https://brandonsanderson.com/defending-elysium/ -o defending-elysium.epub --epub-cover-image=covers/defending-elysium.jpg --epub-metadata=metadata/defending-elysium.xml
+
+## Annotation
+
+There is support for adding annotations to a few books. You can either generate an eBook consisting only of the annotations, or add the annotations on to a provided EPUB file (other formats are not supported).
+
+To provide a legally owned copy of the EPUB to annotate, place the file under `original-books` and rename it to the given filename.
+
+### Elantris
+
+To generate the annotations:
+
+    ruby elantris-annotations.rb
+
+All the generated files will be saved with the filename `elantris-annotations.{epub|pdf|mobi|html}`
+
+To annotate the EPUB, place the file under `original-books` and name it `elantris.epub`, and run:
+
+    ruby annotate-elantris.rb
+
+The generated file will be saved with the filename `annotated-elantris.epub`

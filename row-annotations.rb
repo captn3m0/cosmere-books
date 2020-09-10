@@ -52,3 +52,14 @@ That book never got written either. I finally got to put the scene in, mostly, i
 
 It was interesting for me to reflect on those 25+ years of imagining one scene, evolving over the years, as I put a kind of capstone on it in this book.
 EOT
+
+
+$annotations[7] = <<EOT
+And here we finally reach the culmination of a plot cycle I've been working on for four books now, but really kicked into overdrive in Oathbringer.
+
+I knew pretty early into the creation of the "new" Kaladin (as opposed to Merin, from Prime) that I was going to have to deal with the fact that he'd been put through hell--and that sort of thing leaves scars on a person. Just like I eventually realized I needed to step up and do my research to properly treat Shallan's arc, I decided early on I'd need to be responsible with how I treated what Kaladin had been through.
+
+Mental health has become a theme in the Stormlight Archive, but I've often noted that it isn't that I set out to write specifically about that topic. More, I feel that the extreme circumstances I'm putting characters into naturally lead to these kinds of conflicts. If I'm going to follow through with what the characters are experiencing, it means talking about these ideas.
+
+This chapter is the unmarked "end" of what I imagined being the cold open lead-in to the novel. (The kind of "climax to a book between the two novels you didn't see" that I've been talking about in these annotations.) With the next chapter, we'll go to a character we haven't seen yet this book, and begin into the core plot of the novel.
+EOT

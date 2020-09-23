@@ -63,3 +63,29 @@ Mental health has become a theme in the Stormlight Archive, but I've often noted
 
 This chapter is the unmarked "end" of what I imagined being the cold open lead-in to the novel. (The kind of "climax to a book between the two novels you didn't see" that I've been talking about in these annotations.) With the next chapter, we'll go to a character we haven't seen yet this book, and begin into the core plot of the novel.
 EOT
+
+$annotations[8] = <<EOT
+Dropped the ball a little on my annotation this week. Was busy yesterday writing a picture book. (Yes, I know. Look, I needed a break to do something different, all right? I'll let you all know if anything ever happens with it.)
+
+Anyway, on to Venli! As I said last week, this is kind of the true "Chapter One" to Rhythm of War. The Venli chapters in this book are second only to the Shallan chapters in the number and extent of the revisions I ended up doing. There was a fine balance to walk with her in a lot of ways, as will become more evident as the book progresses.
+
+One of those, however, is this: Venli doesn't see herself as a hero, nor is she interested in being one. Emotionally, she's not really about saying ideals. She feels she's the wrong person for whatever it is that has started to happen to her.
+
+This means there's a different tone between her and the other characters. What she mostly wants is to find a way to escape the powder keg she's gotten herself into, and while she DOES want to make amends for things she's done, I wanted her to feel more "normal person trapped in a strange situation" in many ways than someone like Kaladin.
+
+The fine line to walk here is that I didn't want her to come off petulant, or be too annoying. But I also didn't want her to come off as a gung-ho "let's be heroes" type. That's a delicate balance, because there's a danger because it's very easy for readers to resent her for not being as "on board" with the story as the other characters.
+
+It was worth the risk, and the likelihood that some people will just plain not like her viewpoints, for me because I feel it adds variety of perspectives to the story. It's good to have someone who feels trapped, in over their head. Someone who doesn't know the "right" thing to do, and is a little less proactive as a result. I like how authentic her viewpoints feel because of that.
+EOT
+
+$annotations[9] = <<EOT
+This is the last we'll see of Rock in the book, I'm afraid. I really hope to be able to do the Rock novella sometime in the next few years to trace his course, but one of the things I forced myself to do in this series is keep the focus on the main storylines and characters.
+
+Epic fantasy tends to involve ballooning casts, and this tends to derail books as the author lets their focus move away from the primary storyline toward side characters. I put some rigid requirements on myself when I started Stormlight that require me to move side stories out of the main narrative. It's odd to be talking about trying to keep books this length "lean" but I believe one of the strengths of the series is that it has (so far) kept its eye on the proverbial goal. This is more important than ever, with book five being the end of the first sequence.
+
+That said, what we're witnessing here is kind of the end of Bridge Four as a cohesive entity, at least as it existed in the series up until now. I was sad, for all the fun of this chapter, to be moving into this sequence of the stories. There was a temptation, of course, to just let Bridge Four continue to be Bridge Four--but it wouldn't feel right. Lives change and evolve. My tight-knit friend group from college can never be the same again, not now that we all have families and jobs. Bridge Four couldn't remain the same either.
+
+One of my problems with some forms of media like extended network television shows is the format's inability to let the status of the characters evolve, change, and grow. For a series like this, we need progression, and we need to let Bridge Four become something else. If we're sad about the changes, the early books will always be there to experience again.
+
+As for the Kaladn/Adolin/Shallan interactions, I actively look for moments like these to put into the novels. It's important to let the characters live, and one of the reasons I enjoy epic fantasy is that it (with the space afforded me) allows for more time like this.
+EOT

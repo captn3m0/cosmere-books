@@ -11,7 +11,7 @@ That led to some confusion and consternation among alpha and beta readers, since
 EOT
 
 $annotations[2] = <<EOT
-Here's an annotation for these chapters! One of the most revised sequences of this book were these Shallan chapters--continuing through the entire novel. As I have said elsewhere, I originally designed Shallan's mental state to be a more fantastical look at something like Dissociative Identity Disorder. (Like the fantastical look at Schizophrenia I did with Stephen Leeds.)
+One of the most revised sequences of this book were these Shallan chapters--continuing through the entire novel. As I have said elsewhere, I originally designed Shallan's mental state to be a more fantastical look at something like Dissociative Identity Disorder. (Like the fantastical look at Schizophrenia I did with Stephen Leeds.)
 
 I was fascinated by how something like mental health challenges relating to identity would intersect with magic that let you quite literally become someone else. The original version of this was for a character I wrote in Dragonsteel--which I'll eventually release to the public like I've done with TWOK Prime.
 
@@ -23,7 +23,7 @@ Some of the most satisfying moments in revisions come when you try something dif
 EOT
 
 $annotations[4] = <<EOT
-Annotation time! So, one of the things I worry about (maybe too much) in an extended series like this is something I'll call Skelletor Syndrome. This is the problem that the protagonists need victories through the course of the series--the text will naturally build to important moments, and while there will be failures, there will also be victories.
+So, one of the things I worry about (maybe too much) in an extended series like this is something I'll call Skelletor Syndrome. This is the problem that the protagonists need victories through the course of the series--the text will naturally build to important moments, and while there will be failures, there will also be victories.
 
 The more times an antagonist gets defeated, however, the less of a threat they become in the reader's mind. It's hard to justify to the reader that a villain is still a credible threat after they've been foiled time and time again. (Kylo Ren ran into this problem, for example, in the new Star Wars series.)
 
@@ -33,7 +33,7 @@ So in this book, we're pointing away from the Sadeas/Amaram team toward Odium, s
 EOT
 
 $annotations[5] = <<EOT
-Annotation for this chapter: Moash was one of the characters that was most difficult to get right for this book. There's a difficult balance to maintain with him, compounded by how difficult a line I'm walking with Kaladin in these chapters. I had to do several tone rewrites of this chapter after the Alpha read, to make it all work.
+Moash was one of the characters that was most difficult to get right for this book. There's a difficult balance to maintain with him, compounded by how difficult a line I'm walking with Kaladin in these chapters. I had to do several tone rewrites of this chapter after the Alpha read, to make it all work.
 
 Part of the trick was to convey just how exhausted Kaladin is, mentally while in his viewpoint--since he doesn't accept it himself. Then mix that with a Moash who, in part, does still want to be a good friend--but no longer is capable of reasoning in a conventional way. (And who won't acknowledge to himself that being right, proving that he made the right decisions, is actually far more important to him than his friendships ever were.)
 
@@ -88,4 +88,14 @@ That said, what we're witnessing here is kind of the end of Bridge Four as a coh
 One of my problems with some forms of media like extended network television shows is the format's inability to let the status of the characters evolve, change, and grow. For a series like this, we need progression, and we need to let Bridge Four become something else. If we're sad about the changes, the early books will always be there to experience again.
 
 As for the Kaladn/Adolin/Shallan interactions, I actively look for moments like these to put into the novels. It's important to let the characters live, and one of the reasons I enjoy epic fantasy is that it (with the space afforded me) allows for more time like this.
+EOT
+
+$annotations[10] = <<EOT
+Most of you probably know that it has been important to me to keep the cosmere behind-the-scenes for most of the book series. I don't want a person to have to track all the different books in order to enjoy the one they're currently reading.
+
+The large-scale plan for the books, however, has them slowly converging toward certain events in the future. Less "cross-overs" and more that the nature of what I'm creating is about different worlds who share a background, history, and (eventually) future.
+
+So we're slowly moving out of what I'd call the "each series separate" era of the cosmere and into the "careful mixing" era. The goal for these books will be to still make it that you don't feel you need to remember everything, or need to follow everything. I hope to be able to walk this particular tightrope in such a way that someone who has never read any of the other cosmere books doesn't feel left out--but rather, that there are mysterious and interesting things happening, but the core stories still make sense. However, if I want to lay the groundwork for what I eventually want to do, it will require more bleed-over than I've allowed in the past.
+
+This chapter is one of those that illustrates this new philosophy on my part--the "let them mix, but try to do it in a way that doesn't undermine the integrity of the series" philosophy. We'll see how well I manage it. FYI, Chapter Fifteen goes even a little further in this area than this chapter did. (Though don't expect full-blown cross-contamination between the series until the space age Cosmere era, which is still a ways off.)
 EOT

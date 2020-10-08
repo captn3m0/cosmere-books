@@ -99,3 +99,11 @@ So we're slowly moving out of what I'd call the "each series separate" era of th
 
 This chapter is one of those that illustrates this new philosophy on my part--the "let them mix, but try to do it in a way that doesn't undermine the integrity of the series" philosophy. We'll see how well I manage it. FYI, Chapter Fifteen goes even a little further in this area than this chapter did. (Though don't expect full-blown cross-contamination between the series until the space age Cosmere era, which is still a ways off.)
 EOT
+
+$annotations[11] = <<EOT
+One of the themes of some of my unpublished books was the nature of immortality. I've always been fascinated by the idea, and some of its implications. I think about how shadowy in my mind events of some ten years ago are, and I wonder what would happen if we lived centuries, instead of decades, in lifespan. How would we adapt? How would our physical apparatus (like our brains) adapt to something like that? Like a car built to drive 200,000 miles instead being kept going for many times that.
+
+As an aside, one of the more fun stories I've read dealing with this idea is the excellent 17776, which you really have to experience, since it defies explanation.
+
+I enjoyed writing this chapter, and many in this book, as the series is finally in a place where I can start delving into the personalities and attitudes of the fused. I can't say a whole lot more about that yet, but suffice it to say that I'm excited for you to get the whole book.
+EOT

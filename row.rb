@@ -20,7 +20,8 @@ links = [
   '09/08/read-rhythm-of-war-by-brandon-sanderson-chapter-ten/',
   '09/15/read-rhythm-of-war-by-brandon-sanderson-chapter-eleven/',
   '09/22/read-rhythm-of-war-by-brandon-sanderson-chapter-twelve/',
-  '09/29/read-rhythm-of-war-by-brandon-sanderson-chapter-thirteen/'
+  '09/29/read-rhythm-of-war-by-brandon-sanderson-chapter-thirteen/',
+  '10/06/read-rhythm-of-war-by-brandon-sanderson-chapter-fourteen/'
 ]
 
 # Automatically adds all recent chapters

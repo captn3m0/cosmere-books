@@ -5,7 +5,7 @@ GEM
     mini_portile2 (2.4.0)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    paru (0.4.1.2)
+    paru (0.4.2)
 
 PLATFORMS
   ruby

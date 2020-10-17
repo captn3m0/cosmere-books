@@ -22,6 +22,14 @@ Because of this, I listened very hard to my beta readers on Shallan, particularl
 Some of the most satisfying moments in revisions come when you try something different, and find that it's what you wanted to do all along--but didn't quite know how to accomplish until a comment nudges you.
 EOT
 
+$annotations[3] = <<EOT
+So, this little sequence with Kaladin, the lurgs, and tricking Leshwi was one I was VERY close to cutting from the book. Thing is, this battle between them has been going on pretty long at this point, and my gut says I've done a little too much of "Kaladin chases and fights someone through the air" in these chapters.
+
+I looked long and hard, therefore, at trimming this sequence for pacing reasons. In the end, I left it, and I don't know 100% if it was the right choice or not. I like how it gives a different kind of interaction for Kaladin on the battlefield here, and how it hearkens back to the flashback from book one with Tien.
+
+I opted, instead, to trim more extensively through the whole combat--taking out words and sentences, rather than this entire scene. But it was a tough call. And even in the very last revision, I went back and forth on it. If I'd been forced to trim something here to make a film come in at the right time, this part would have gone--but one of the luxuries of writing epic fantasy in novel form is that I can be a little more self-indulgent. (So long as I don't let myself go too far.)
+EOT
+
 $annotations[4] = <<EOT
 So, one of the things I worry about (maybe too much) in an extended series like this is something I'll call Skelletor Syndrome. This is the problem that the protagonists need victories through the course of the series--the text will naturally build to important moments, and while there will be failures, there will also be victories.
 
@@ -106,4 +114,16 @@ One of the themes of some of my unpublished books was the nature of immortality.
 As an aside, one of the more fun stories I've read dealing with this idea is the excellent 17776, which you really have to experience, since it defies explanation.
 
 I enjoyed writing this chapter, and many in this book, as the series is finally in a place where I can start delving into the personalities and attitudes of the fused. I can't say a whole lot more about that yet, but suffice it to say that I'm excited for you to get the whole book.
+EOT
+
+$annotations[12] = <<EOT
+I've been waiting for you guys to read this one, as it has some of my favorite moments in the first part. From the conversation with Rlain, and me finally being able to talk about some of the mechanics that let the Listeners survive on the Shattered Plains, to--of course--being able to write a fight using Awakening for the first time in a while. I also enjoy writing about Kaladin through the eye of someone like Zahel, as it gives me some interesting opportunities.
+
+Obviously, I'm pushing (again) the boundaries of what a reader can be expected to remember/know about the cosmere to enjoy these books.
+
+It's my opinion that thinking "Zahel can do weird, mysterious stuff I don't understand" is all right for those readers who don't have a larger cosmere experience. In fact, I'm confident that even if Warbreaker hadn't been released, I'd be writing scenes like this in the same way. It's a common trope in fantasy for the powerful figure, like Gandalf, to do things that seem outside the rules everyone else has to follow. One thing I like about having the cosmere to play with as a creator is that it lets me do scenes like this, which both are mysterious but also fully explained by the greater magic system, if you want to dig into it.
+
+I will say that Zahel is making an informed guess about Szeth in this chapter. He doesn't know 100%.
+
+This is your last relatively cosmere-aware chapter for the previews, I'm afraid. There are a few more similar to this much later in the book.
 EOT

@@ -127,3 +127,17 @@ I will say that Zahel is making an informed guess about Szeth in this chapter. H
 
 This is your last relatively cosmere-aware chapter for the previews, I'm afraid. There are a few more similar to this much later in the book.
 EOT
+
+$annotations[13] = <<EOT
+Seems like a good place to talk about my philosophy on how I choose viewpoint characters for these books. I've been getting DMs saying, "Why no Dalinar viewpoints?" or "Why no Adolin viewpoints?" And I can understand frustration there.
+
+When I started this series, however, I dug into the multi-book epic fantasy stories I'd enjoyed in the past, as well as the more popular examples, and tried to really nail down the pitfalls of the format. A main one felt, to me, to be character sprawl. These series tend to end up with so many interesting characters that the author, in turn, ends up having entire sequences (and even books) that don't move the storyline forward, but instead investigate new storylines.
+
+While I do appreciate some of that, I wanted to do what I could to mitigate that. Which meant limiting my viewpoints, even among main characters. This helps prevent sprawl, at least for me, because when I'm in someone's head, I naturally begin working on subplots and character arcs for them. In this case, I needed to keep my focus, and limit myself. To not try to do full sequences for every character in every part of every book. While I know some of you would have enjoyed that, I would really rather finish this series before I am a hundred--and feel that the books need to be as focused as is reasonable for their length.
+
+That's why when I outline, I look at all the characters that COULD have a viewpoint in a given section--then narrow my scope to a few of them. Dalinar most certainly could have had viewpoints in Part One of this book, but I decided it was Navani's perspective that made the most sense for this story. So, while you get to see a healthy dose of Dalinar, we don't have his viewpoints.
+
+Those will come later in the book, in a part where it makes sense to have his perspective on things. I need to look for the characters that are adding the most to a given sequence--that usually means the ones who are changing the most, learning the most, or who have the most tension in their sequence. I do feel bad for this somewhat cutthroat use of viewpoints at times, but I believe it is the right decision--it's either this, or watch the series balloon to many more books while at the same time slowing the narrative down to the point that books pass, and you wonder what was actually accomplished in them.
+
+Only three more chapters left in these previews before you get the entire book! (Also, apologies for those who found this annotation repetitive from things I've said before. It is difficult to judge, sometimes, what is new information to the majority of readers and what is becoming well-worn, so to speak.)
+EOT

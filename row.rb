@@ -25,7 +25,8 @@ links = [
   '10/13/read-rhythm-of-war-by-brandon-sanderson-chapter-fifteen/',
   '10/20/read-rhythm-of-war-by-brandon-sanderson-chapter-sixteen/',
   '10/27/read-rhythm-of-war-by-brandon-sanderson-chapter-seventeen/',
-  '11/03/read-rhythm-of-war-by-brandon-sanderson-chapter-eighteen/'
+  '11/03/read-rhythm-of-war-by-brandon-sanderson-chapter-eighteen/',
+  '11/10/read-rhythm-of-war-by-brandon-sanderson-chapter-nineteen/'
 ]
 
 # Automatically adds all recent chapters
@@ -63,6 +64,8 @@ html = ''
   end
   url = BASE + links[i - 1]
 end
+
+html += $images
 
 $annotations.each_with_index do |a, i|
   if a

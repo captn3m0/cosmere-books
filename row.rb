@@ -24,7 +24,8 @@ links = [
   '10/06/read-rhythm-of-war-by-brandon-sanderson-chapter-fourteen/',
   '10/13/read-rhythm-of-war-by-brandon-sanderson-chapter-fifteen/',
   '10/20/read-rhythm-of-war-by-brandon-sanderson-chapter-sixteen/',
-  '10/27/read-rhythm-of-war-by-brandon-sanderson-chapter-seventeen/'
+  '10/27/read-rhythm-of-war-by-brandon-sanderson-chapter-seventeen/',
+  '11/03/read-rhythm-of-war-by-brandon-sanderson-chapter-eighteen/'
 ]
 
 # Automatically adds all recent chapters
@@ -67,9 +68,12 @@ $annotations.each_with_index do |a, i|
   if a
     html += "<h1 id='annotation-#{i}'>Annotations - " + links[i].split('/').last[40..] + "</h1>"
     html += a.gsub(/(\r)?\n/, "<br>")
-    html += "<a href='#chapter-#{i+1}'>Click here</a> to go the next chapter."
+    # There is no next chapter
+    html += "<a href='#chapter-#{i+1}'>Click here</a> to go the next chapter." if i !=15
   end
 end
+
+html+= $jasnahspoiler
 
 File.open('books/row.html', 'w') { |file| file.write(html) }
 puts '[html] Generated HTML file'

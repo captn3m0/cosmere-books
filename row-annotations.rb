@@ -141,3 +141,73 @@ Those will come later in the book, in a part where it makes sense to have his pe
 
 Only three more chapters left in these previews before you get the entire book! (Also, apologies for those who found this annotation repetitive from things I've said before. It is difficult to judge, sometimes, what is new information to the majority of readers and what is becoming well-worn, so to speak.)
 EOT
+
+$annotations[14] = <<EOT
+Some notes about Jasnah
+
+Hey, all! As I was working on the annotation for last week’s chapter, I realized it was touching on something I wanted to talk about in a more substantive way. So I decided to put that annotation off and make a separate, longer and more in-depth, post about it. This WILL have some small spoilers for the book, specifically some things to do with Jasnah and her sexual identity. If you’d rather just read it as it comes up in the story, then I’d suggest you head away now--and you can come back to this in a month or two after you’ve read Rhythm of War.
+
+However, good communication with fans--particularly when it comes to expectations--is something I consider a foundational principle of my career. During the beta read, I had the chance to get a glimpse of how readers might respond to some aspects of Jasnah, and at that time I determined I’d do a post like this before the book came out.
+
+So, here’s the problem: through the course of the series, people have been asking me about Jasnah’s sexuality. Gay, Bi, Straight, other? I usually answer with some variation of the following: “Jasnah would prefer you focus on other aspects of her identity, rather than her sexuality.”
+
+I said this for various reasons. First, I felt it is in line with the character, and what she would want. Second, I’ve avoided talking too much about Jasnah as a general rule, since I plan her to be a major (perhaps the major) character of the back five books, and so it’s best to keep focus off her for now. There will be plenty of time for discussions about her later. Third, I generally don’t force relationships upon my characters as I write. It depends on the character, of course. (Navani/Dalinar, for example, had a romance planned as a main part of their storyline.) But for many characters, I give myself wiggle room to see what I feel works best as the story develops.
+
+The end result of me being vague on this, however, was that I seem to have led a lot of people to think I was playing the Brandon game of: “If he won’t say anything about a topic, it must be mysterious, and therefore something we should theorize on a ton!” This is, obviously, my own fault.
+
+I’ve heard a lot of different things via email and in person from people that have made me realize that a lot of people are wanting some mutually exclusive things from the character in this regard. As I started work on this novel, I decided I should say something in the book in order to pull back the shroud on the mystery a little, as I never intended it to get as big as it did.
+
+I tried a few different things to see what worked and was most genuine for the character. In the end, I settled on what I felt was best and most in-line with how I view Jasnah. For those who want to know, and I’ll put this next part behind extra spoilers. <a href="#jasnahspoiler">Click here to read the spoiler</a>
+
+<span id="jasnahspoilerreturn">One</span> of the reasons I wanted to make this post is because I wanted to address some of the people who are going to be disappointed as I worry that I (by making her a blank slate in this regard) accidentally led a lot of people to theorize and attach ideas they wanted to her--and so I’ll inevitably disappoint these people. (Though, hopefully, others will find the depiction I ended up with in line with the characterization and with Jasnah’s overall character mode.)
+
+For the main body of the annotation, I wanted to talk about how Jasnah came about, and my inspirations. So if you’ll forgive me for a moment, I want to walk you down that path--and I think it might explain some of why I ended up making the decision that I did.
+
+When I was first working on the Stormlight Archive back in 2002, I decided early on that I wanted a character like Jasnah in the books, as I was dealing with some gender politics and social structures. (I actually pitched Jasnah to myself as “The woman Serene thinks she is.” No offense to Serene, she’s just young--and I wanted to take a stab at a true scholar and master of politics.)
+
+This decision made, I dove into reading a lot of work from feminist authors--and made certain to talk to some of my feminist friends in depth about how to accomplish an accurate depiction. A lot of times, when I’m developing a character, one or two things will leap out at me from readings, and I’ll start to use that to make up the core of the personality. (Much like the idea of Kaladin came from the idea of a surgeon, trained to save people, being sent to war and being trained to kill.)
+
+Jasnah’s atheism was one of these things--specifically I wanted a rationalist humanist character as a counterpoint to the very mythological setting I was developing with the Heralds. I was extremely excited by the opportunity to have a character who could offer the in-world scientific reasons why the things that are happening are happening.
+
+At the same time, one key takeaway I got from these studies was this: several authors and friends be frustrated with the idea that often in media and discussion, people pretended that a feminist couldn’t also be feminine. As it was explained to me, “Saying you shouldn’t have to play into society’s rules for women shouldn’t also mean no women should ever decide to play into some of society’s rules for women.” It was about choice, and letting women decide--rather than letting society pressure them. This was central to my creation of Jasnah.
+
+And so, fundamental to my view of the character is the need for me to not force her down any path, no matter how much some fans may want that path to be the right one. Jasnah being as I’ve written her was just RIGHT. I’ve always viewed her as sharing some aspects with myself, and one of those is the clinical way I approach some things that others approach emotionally. While I wouldn’t say I identify in the same way as her, this part of me is part of a seed for who she is and how she acts. And with help from betas, I think I found her true voice.
+
+All of that said, the people I’m most sad to disappoint here are those who I know were hoping for Jasnah to be gay. Out of respect for these readers, and to be certain, I did try writing the character that way in this book--and I felt it didn’t quite fit. Obviously, this is a character, and not an actual person--and so it’s all a fabrication anyway. I could absolutely write Jasnah as gay, and it wouldn’t undermine any sense of choice for a real woman.
+
+However, it didn’t feel authentic to me. Plus, now that Way of Kings Prime is out, you all can know that a relationship with a man (Taln) was a plot point to her initial characterization. (I can’t say that I’ll stick with this, to be honest. It will depend on a ton of factors.)
+
+When I discussed all this all with a good friend of mine who is far more involved in feminist discourse and the LGBTQIA+ community, she suggested that I make Jasnah bisexual or biromantic. I resisted this because I knew the only planned relationship I had for her was with a man, and it felt disingenuous to try to imply this is how I see her. (Though, in your head canon, there’s certainly great arguments for this.) The problem is that Shallan is leaning very bi as I’ve written her more, but she’s in a relationship with a man. I don’t know if this is a big issue in fiction, but it would feel somehow wrong to for me to write a bunch of bisexual characters who all only engaged in relationships with people of the opposite gender. It feels I could do more damage than good by trying to pretend I’m being inclusive in this way, without actually giving true representation.
+
+This all might beg another question: will there be other characters in the Stormlight Archive (or cosmere) who are LGBTQIA+. Yes. (Including major viewpoint characters.) However, I worry that by talking too much about that here, I would imply a tone where I’m trying too hard to deflect. (One person I chatted with about this warned me not to send the “wrong message that queer characters are like representation tokens that we can exchange for each other for equal credit.” I found that a very astute piece of advice.)
+
+I am quite happy with Jasnah’s depiction in this book, and while I’m sorry she can’t be everything everyone wanted, I’m excited for her development as a character in the back five books. My promise to you remains the same: to make the Cosmere a place where I explore all aspects of the human experience. And a place that represents not just me, but as many different types of peoples and beliefs as I can--depicted the best I can as vibrant, dynamic characters.
+
+Many thanks to those in the LGBTQIA+ community who have written to me with suggestions, criticisms, and support. And thanks to everyone for being patient with me, and this series, as I continue to shape it.
+
+EOT
+
+$annotations[15] = <<EOT
+All right, so I talked earlier about the odd structure of this book. You can see it manifesting in this chapter, and the next one, which are the last chapters of the part. In a regular Stormlight Book, at this point in the novel we'd be pushing toward a more action-oriented or mystery-oriented climax (such as Shallan's confrontation with the Midnight Mother in Oathbringer.)
+
+The reversed structure of this book's first part--which began with the climax of the "in between" book we didn't see, instead comes to a more calm, character-oriented climax here with Kaladin making his decision to become a surgeon. (Along with, in the next chapter--which is a calm, introspective Navani chapter to end out the part.)
+
+We released the Syl Interlude early through my newsletter (that comes after the Navani chapter) and tried to edit out any big spoilers--but forgot one line that indicates Kaladin has become a surgeon again, so I suspect many of you have been anticipating the decision Kaladin makes here.
+
+Still, it's an important moment for Kaladin, one I've been pushing him toward for a while now. Though he's always been the surgeon's son, he hasn't had a chance to truly be a healer, and see how it fits him as an adult.
+EOT
+
+$jasnahspoiler = <<EOT
+<h1 id=jasnahspoiler>Jasnah Spoiler</h1>
+
+<strong>BIG WARNING: WHAT FOLLOWS IS A SPOILER FOR THE REMAINING BOOK. SEE <a href="#annotation-14">ANNOTATIONS FOR CHAPTER 17</a> BEFORE YOU READ THIS.</strong>
+
+SCROLL TO READ
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+Jasnah is asexual, and currently heteroromantic. Her feelings on physical intimacy are very neutral, not something she's interested in for its own sake, but also not something she's opposed to doing for someone she cares about. I tried several different things with the character, and this is what really clicked with me--after getting some advice, suggestions, and help from some asexual readers.
+
+<a href="#jasnahspoilerreturn">Click here to go back to reading the annotation</a>
+EOT

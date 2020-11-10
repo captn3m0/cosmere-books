@@ -239,4 +239,3 @@ $images = <<EOT
 </figure>
 </p>
 EOT
-

@@ -12,24 +12,20 @@ Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere
 1.  Skyward (Serialized till Chapter 15)
 1.  Defending Elysium
 1.  Dark One (Preview Chapter)
-1.  Rhythm of War (Serialized publication on tor.com in progress) (with Annotations)
+1.  Rhythm of War (Serialized till Chapter 18) (with Annotations and Illustrations)
 1.  Warbreaker Prime: Mythwalker
 
-For obvious reasons, the converted ebooks are not part of this repo. You must download and run the script on your own machine to generate the copies.
-
-The code for this is mostly adapted from [hoshruba](https://github.captnemo.in/hoshruba).
-
-You can download sample files (Lorem Ipsum) from <http://ge.tt/8R61oXm2> to see a sample of how the generated files look.
+For obvious reasons, the converted ebooks are not part of this repo. You must download and run the script on your own machine to generate the ebook files.
 
 ## Rhythm of War
 
 >The chapter-by-chapter serialization of Rhythm of War, Brandon Sanderson’s fourth volume in The Stormlight Archive series. New chapters go live every Tuesday up to the November 17, 2020 release date.
 
-This supports the annotations that Brandon is publishing on Reddit.
+This supports the annotations that Brandon is publishing on Reddit along with [3 illustrations from Part 1](https://www.17thshard.com/forum/topic/92967-some-new-illustrations-from-row/). This covers the entire Part 1 of the book.
 
 ## Oathbringer
 
-Tor.com is publishing Oathbringer in serialized form till Chapter 32. This script downloads all of these posts and converts them into a publishable format, including epub, mobi, pdf and html. You can find the tor.com announcement at https://www.tor.com/2017/08/15/brandon-sanderson-oathbringer-serialization-announcement/.
+Tor.com is published Oathbringer in serialized form till Chapter 32. This script downloads all of these posts and converts them into a publishable format, including epub, mobi, pdf and html. You can find the tor.com announcement at https://www.tor.com/2017/08/15/brandon-sanderson-oathbringer-serialization-announcement/. This covers the entire Part 1 of the book.
 
 ## Way of Kings Reread
 
@@ -63,7 +59,7 @@ More details at https://www.tor.com/series/oathbringer-reread-brandon-sanderson/
 
 > Skyward by #1 New York Times bestselling author Brandon Sanderson is the first book in an epic new series about a girl who dreams of becoming a pilot in a dangerous world at war for humanity’s future. We know you can't wait for the book to finally hit shelves on 11/6/18, so we're releasing new chapters here every week!
 
-See more details at [underlined](https://www.getunderlined.com/read/excerpt-reveal-start-reading-skyward-by-brandon-sanderson/) or [brandonsanderson.com](https://brandonsanderson.com/books/skyward/skyward/)
+See more details at [underlined](https://www.getunderlined.com/read/excerpt-reveal-start-reading-skyward-by-brandon-sanderson/) or [brandonsanderson.com](https://brandonsanderson.com/books/skyward/skyward/). This covers Chapters 1-15 of the book.
 
 ## Defending Elysium
 
@@ -77,7 +73,7 @@ More details at https://brandonsanderson.com/defending-elysium/. Annotations at 
 
 >Brandon Sanderson’s Dark One is a break from the norm; it’s a graphic novel from Vault Comics, originally announced as being in the works two years ago, based on an original idea from Sanderson. The book will be written by Collin Kelly and Jackson Lanzing from a story by Sanderson, with art by Nathan Gooden and colors from Kurt Michael Russell. Lettering on the project comes from Deron Bennett.
 
-> The chapter below was originally intended to be Vault Comics’ Free Comic Book Day release this year.
+>The chapter below was originally intended to be Vault Comics’ Free Comic Book Day release this year.
 
 More details at <https://www.hollywoodreporter.com/heat-vision/dark-one-excerpt-brandon-sanderson-unveils-fantasy-graphic-novel-1297122>.
 
@@ -87,10 +83,8 @@ The script generates a CBZ file.
 
 Below description from [Sanderson's website](https://www.brandonsanderson.com/warbreaker-prime-mythwalker-prologue/), written by Peter:
 
->When Brandon shelved Mythwalker in August 2001 because he felt it wasn’t working (one of its issues was that it felt clichéd, but there are other issues that I’ll discuss following later chapters), he planned to get back to it eventually.
-But there were still elements and characters left over in those books that could be used to tell other stories. Warbreaker follows one of the storylines from Mythwalker that was left when the elements used in the Mistborn trilogy were taken out.
-But that is not all that Mythwalker is. Its main character and its magic system have not been cannibalized. What you will read here [...] is an interesting story in its own right, even though it has problems. And some of you will be frustrated that the story remains unfinished.
-
+>When Brandon shelved Mythwalker in August 2001 because he felt it wasn’t working (one of its issues was that it felt clichéd, but there are other issues that I’ll discuss following later chapters), he planned to get back to it eventually. But there were still elements and characters left over in those books that could be used to tell other stories. Warbreaker follows one of the storylines from Mythwalker that was left when the elements used in the Mistborn trilogy were taken out. But that is not all that Mythwalker is. Its main character and its magic system have not been cannibalized. What you will read here [...] is an interesting story in its own right, even though it has problems. And some of you will be frustrated that the story remains unfinished.
+>
 >So it is probably best to view these chapters just as a window on early Brandon Sanderson, when he tried something and failed. This was the first novel in Brandon’s adult writing career that he started writing but never finished. If you want insight into his creative process, I think this is a great place to look.
 
 ## Requirements
@@ -121,7 +115,7 @@ wok-reread
 wor-reread
 ```
 
-If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull).
+If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull). Generating the `defending-elysium` ebook requires generating all ebooks currently.
 
 As an example, you'd like to get a ebook for Rhythm of War, run the following command:
 

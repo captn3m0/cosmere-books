@@ -197,6 +197,16 @@ We released the Syl Interlude early through my newsletter (that comes after the 
 Still, it's an important moment for Kaladin, one I've been pushing him toward for a while now. Though he's always been the surgeon's son, he hasn't had a chance to truly be a healer, and see how it fits him as an adult.
 EOT
 
+$annotations[16] = <<EOT
+So, this brings us to the end of Part One, and you can fully see the reversed shape of the story here. Explosive beginning, contemplative ending. I went back and forth on whether I should end with Kaladin or Navani, as his decision to become a surgeon was the larger of the narrative arcs--but Navani's section better matched the thematic end of the part.
+
+I fully expect some readers to be a little indignant about the fact that Taravangian is walking around free, while Szeth is imprisoned. I agree--it's unfair, but I also believe it to be (unfortunately) accurate. Taravangian is, despite his unassuming mannerisms, one of the most powerful people in the world. While it would have been great to toss Stalin into jail for his crimes, it wasn't really an option--and during the war, the allies needed him.
+
+That isn't to say Taravangian is untouchable. Only that I felt what you read her to be one of the more likely outcomes to his outing. His argument that he didn't do anything worse than Dalinar did is a pretty solid one; if there hadn't also been suspicion he was working with the enemy, it's likely there would have been no relevant consequences to his assassination orders.
+
+You'll be getting his perspective on all of this soon, as he has an interlude after each part of this book. (Like Szeth got in the first book, or Eshonai got in the second.)
+EOT
+
 $jasnahspoiler = <<EOT
 <h1 id=jasnahspoiler>Jasnah Spoiler</h1>
 

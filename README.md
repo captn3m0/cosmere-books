@@ -4,16 +4,26 @@
 
 Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere) using various public sources. Currently supports the following books:
 
+**Books**
+
+1.  Rhythm of War (Serialized till Chapter 18) (with Annotations and Illustrations)
 1.  Oathbringer (Serialized till Chapter 32)
+1.  Warbreaker Prime: Mythwalker
+1.  Skyward (Serialized till Chapter 15)
+
+**Short Stories**
+
+1.  Defending Elysium
+
+**Graphic Novels**
+
+1.  Dark One (Preview Chapter)
+
+**Tor.com Rereads**
 1.  Way of Kings Reread
 1.  Words of Radiance Reread
 1.  Edgedancer Reread
 1.  Oathbringer Reread
-1.  Skyward (Serialized till Chapter 15)
-1.  Defending Elysium
-1.  Dark One (Preview Chapter)
-1.  Rhythm of War (Serialized till Chapter 18) (with Annotations and Illustrations)
-1.  Warbreaker Prime: Mythwalker
 
 For obvious reasons, the converted ebooks are not part of this repo. You must download and run the script on your own machine to generate the ebook files.
 

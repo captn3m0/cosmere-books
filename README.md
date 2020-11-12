@@ -27,6 +27,34 @@ Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere
 
 For obvious reasons, the converted ebooks are not part of this repo. You must download and run the script on your own machine to generate the ebook files.
 
+## Requirements
+
+[Docker](https://docs.docker.com/install/) installed.
+
+## Generation
+
+**Instructions are available for [Windows](https://github.com/captn3m0/cosmere-books/wiki/Running-on-Windows), [Mac](https://github.com/captn3m0/cosmere-books/wiki/Running-on-Mac), and [Linux](https://github.com/captn3m0/cosmere-books/wiki/Running-on-Linux)**.
+
+## Book Codes
+
+```
+dark-one
+edgedancer-reread
+mythwalker
+oathbringer
+oathbringer-reread
+row
+skyward
+wok-reread
+wor-reread
+```
+
+If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull). Generating the `defending-elysium` ebook requires generating all ebooks currently.
+
+As an example, you'd like to get a ebook for Rhythm of War, run the following command:
+
+  docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest row
+
 ## Rhythm of War
 
 >The chapter-by-chapter serialization of Rhythm of War, Brandon Sanderson’s fourth volume in The Stormlight Archive series. New chapters go live every Tuesday up to the November 17, 2020 release date.
@@ -96,40 +124,6 @@ Below description from [Sanderson's website](https://www.brandonsanderson.com/wa
 >When Brandon shelved Mythwalker in August 2001 because he felt it wasn’t working (one of its issues was that it felt clichéd, but there are other issues that I’ll discuss following later chapters), he planned to get back to it eventually. But there were still elements and characters left over in those books that could be used to tell other stories. Warbreaker follows one of the storylines from Mythwalker that was left when the elements used in the Mistborn trilogy were taken out. But that is not all that Mythwalker is. Its main character and its magic system have not been cannibalized. What you will read here [...] is an interesting story in its own right, even though it has problems. And some of you will be frustrated that the story remains unfinished.
 >
 >So it is probably best to view these chapters just as a window on early Brandon Sanderson, when he tried something and failed. This was the first novel in Brandon’s adult writing career that he started writing but never finished. If you want insight into his creative process, I think this is a great place to look.
-
-## Requirements
-
-[Docker](https://docs.docker.com/install/) installed.
-
-## Generation
-
-Once you have `docker` setup, run the following command inside an empty directory. This will download
-all the books from scratch and copy the final books into it.
-
-```bash
-docker pull captn3m0/cosmere-books
-docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest [bookname]
-```
-
-The last is an optional bookname, which can be one of the following:
-
-```
-dark-one
-edgedancer-reread
-mythwalker
-oathbringer
-oathbringer-reread
-row
-skyward
-wok-reread
-wor-reread
-```
-
-If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull). Generating the `defending-elysium` ebook requires generating all ebooks currently.
-
-As an example, you'd like to get a ebook for Rhythm of War, run the following command:
-
-	docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest row
 
 ## Extra
 

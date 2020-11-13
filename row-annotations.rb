@@ -230,21 +230,21 @@ $images = <<EOT
 
 <h2>Illustration 1</h2>
 <p><figure>
-<img src="https://www.17thshard.com/forum/uploads/monthly_2020_11/5fa8c8182f0d8_Screenshot2020-11-09at04_34_59.png.bff6d91cfbdb0fc6f5d0b8760b82dd34.png" alt="Sketch from Navani's Notebook: The Fourth Bridge">
+<img src="images/row-1.png" alt="Sketch from Navani's Notebook: The Fourth Bridge">
 <figcaption>Sketch from Navani's Notebook: The Fourth Bridge</figcaption>
 </figure>
 </p>
 
 <h2>Illustration 2</h2>
 <p><figure>
-<img src="https://www.17thshard.com/forum/uploads/monthly_2020_11/5fa8c82234b92_Screenshot2020-11-09at04_35_28.png.5407ea8837260facc3a36b7eb9442e56.png" alt="Sketch from Navani's Notebook: The Arnist Method">
+<img src="images/row-3.png" alt="Sketch from Navani's Notebook: The Arnist Method">
 <figcaption>Sketch from Navani's Notebook: The Arnist Method</figcaption>
 </figure>
 </p>
 
 <h2>Illustration 3</h2>
 <p><figure>
-<img src="https://www.17thshard.com/forum/uploads/monthly_2020_11/5fa8c7ac2d020_Screenshot2020-11-09at04_34_33.png.dfab9f8de252466659c25db72d835cf5.png" alt="Sketch from Shallan's Notebook: The Atrium">
+<img src="images/row-3.png" alt="Sketch from Shallan's Notebook: The Atrium">
 <figcaption>Sketch from Shallan's Notebook: The Atrium</figcaption>
 </figure>
 </p>

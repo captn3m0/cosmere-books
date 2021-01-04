@@ -2,10 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     humanize (2.5.0)
-    mini_portile2 (2.4.0)
-    nokogiri (1.10.10)
-      mini_portile2 (~> 2.4.0)
+    mini_portile2 (2.5.0)
+    nokogiri (1.11.0)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     paru (0.4.1.2)
+    racc (1.5.2)
 
 PLATFORMS
   ruby

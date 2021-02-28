@@ -12,7 +12,7 @@ BASE = 'https://brandonsanderson.com'
 links = ["/annotation-elantris-introduction/"] +
   ["/annotation-elantris-title-page/"] +
   ["/annotation-elantris-dedication/"] +
-  ["/annotation-elantris-acknowledgements/"] +
+  ["/annotation-elantris-acknowledgements-page/"] +
   ["/annotation-elantris-prologue/"] +
   (1..27).map{|x| "/annotation-elantris-chapter-#{x}/"} +
   ["/annotation-elantris-part-one-wrap-up/"] +

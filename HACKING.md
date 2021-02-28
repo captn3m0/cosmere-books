@@ -11,6 +11,7 @@ If you are interested in just generating the books, follow the guide on the READ
 - (mobi only): `ebook-convert` (from calibre) available to generate the mobi file
 - (pdf) `wkhtmltopdf` for converting html to pdf
 - (pdf) `pdftk` to stitch the final PDF file
+– (annotating scripts only) `zip` to unpack the EPUB
 
 ### Notes
 

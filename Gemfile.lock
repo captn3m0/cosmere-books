@@ -2,18 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     humanize (2.5.1)
-    mini_portile2 (2.5.2)
-      net-ftp (~> 0.1)
-    net-ftp (0.1.2)
-      net-protocol
-      time
-    net-protocol (0.1.0)
-    nokogiri (1.11.6)
+    mini_portile2 (2.5.3)
+    nokogiri (1.11.7)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     paru (0.4.1.2)
     racc (1.5.2)
-    time (0.1.0)
 
 PLATFORMS
   ruby

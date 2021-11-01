@@ -6,7 +6,7 @@ GEM
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
-    paru (0.4.2.2)
+    paru (0.4.2.3)
     racc (1.5.2)
 
 PLATFORMS

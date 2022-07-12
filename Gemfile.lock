@@ -3,7 +3,7 @@ GEM
   specs:
     humanize (2.5.1)
     mini_portile2 (2.8.0)
-    nokogiri (1.13.6)
+    nokogiri (1.13.7)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     paru (0.4.3)

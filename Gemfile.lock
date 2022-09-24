@@ -2,15 +2,13 @@ GEM
   remote: https://rubygems.org/
   specs:
     humanize (2.5.1)
-    mini_portile2 (2.8.0)
-    nokogiri (1.13.8)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
-    paru (1.0.2)
+    paru (1.0.3)
     racc (1.6.0)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   humanize
@@ -18,4 +16,4 @@ DEPENDENCIES
   paru
 
 BUNDLED WITH
-   2.1.4
+   2.3.22

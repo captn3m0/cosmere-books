@@ -10,6 +10,7 @@ Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere
 1.  Oathbringer (Serialized till Chapter 32)
 1.  Warbreaker Prime: Mythwalker
 1.  Skyward (Serialized till Chapter 15)
+1.  The Lost Metal (To be serialized till Chapter 9, In Progress)
 
 **Short Stories**
 
@@ -47,6 +48,7 @@ row
 skyward
 wok-reread
 wor-reread
+lost-metal
 ```
 
 If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull). Generating the `defending-elysium` ebook requires generating all ebooks currently.
@@ -54,6 +56,8 @@ If none is passed, all books will be generated. The entire build (for all books 
 As an example, you'd like to get a ebook for Rhythm of War, run the following command:
 
   docker run --rm --volume "$(pwd):/output" captn3m0/cosmere-books:latest row
+
+For directions specific to your OS, see above.
 
 ## Rhythm of War
 
@@ -124,6 +128,12 @@ Below description from [Sanderson's website](https://www.brandonsanderson.com/wa
 >When Brandon shelved Mythwalker in August 2001 because he felt it wasn’t working (one of its issues was that it felt clichéd, but there are other issues that I’ll discuss following later chapters), he planned to get back to it eventually. But there were still elements and characters left over in those books that could be used to tell other stories. Warbreaker follows one of the storylines from Mythwalker that was left when the elements used in the Mistborn trilogy were taken out. But that is not all that Mythwalker is. Its main character and its magic system have not been cannibalized. What you will read here [...] is an interesting story in its own right, even though it has problems. And some of you will be frustrated that the story remains unfinished.
 >
 >So it is probably best to view these chapters just as a window on early Brandon Sanderson, when he tried something and failed. This was the first novel in Brandon’s adult writing career that he started writing but never finished. If you want insight into his creative process, I think this is a great place to look.
+
+## The Lost Metal
+
+> Tor.com is serializing The Lost Metal from now until its release on November 15. New chapters will go live every Monday at 12pm ET.
+
+In progress, only Chapter 1 so far.
 
 ## Extra
 

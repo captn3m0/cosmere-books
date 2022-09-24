@@ -193,6 +193,7 @@ img {
        paragraph, it might not be so great.
     */
   vertical-align: middle;
+  text-align: center;
 }
 
 div.figure {

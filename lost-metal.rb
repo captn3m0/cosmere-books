@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require 'uri'
 require 'date'
 require 'fileutils'
 require 'nokogiri'
@@ -10,9 +11,12 @@ BASE = 'https://www.tor.com/2022/'
 
 links = [
   '09/19/read-the-lost-metal-by-brandon-sanderson-prologue-and-chapters-1-2/',
+  '09/26/read-the-lost-metal-by-brandon-sanderson-chapters-3-4/'
 ]
 
 episode = 1
+
+counter = 0
 
 links.each do |link|
   url = BASE + link
@@ -24,17 +28,36 @@ links.each do |link|
 end
 
 # Now we have all the files
-html = '<h1>Prologue</h1>'
+html = ''
 for i in 1..(links.length)
   page = Nokogiri::HTML(open("lost-metal/#{i}.html")).css('.entry-content')
   start = ending = false
   page.children.each do |e|
-    if e.name == 'h4'
-      e.name = 'h1'
+    if ['h1', 'h2', 'h3', 'h4', 'hr'].include? e.name
+      e.remove
     end
 
-    if e.name == 'h3'
-      e.name = 'div'
+    if e.text ==' '
+      e.remove
+    end
+
+    if e.name == 'p'
+      e.children.each do |ee|
+        if ee.name == 'img'
+          u = URI::parse ee['src']
+          if counter == 0
+            e.add_previous_sibling "<h1>Prologue</h1>"
+          else
+            e.add_previous_sibling "<hr><h1> Chapter #{counter}"
+          end
+          counter += 1
+          ee.delete 'srcset'
+          ee.delete 'class'
+          ee.delete 'loading'
+          ee.delete 'sizes'
+          ee.delete 'data-recalc-dims'
+        end
+      end
     end
 
     start = true if e.class?('ebook-link-wrapper')

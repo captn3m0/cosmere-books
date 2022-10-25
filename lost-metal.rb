@@ -12,7 +12,10 @@ BASE = 'https://www.tor.com/2022/'
 links = [
   '09/19/read-the-lost-metal-by-brandon-sanderson-prologue-and-chapters-1-2/',
   '09/26/read-the-lost-metal-by-brandon-sanderson-chapters-3-4/',
-  '10/03/read-the-lost-metal-by-brandon-sanderson-chapters-5-8/'
+  '10/03/read-the-lost-metal-by-brandon-sanderson-chapters-5-8/',
+  '10/10/read-the-lost-metal-by-brandon-sanderson-chapter-nine/',
+  '10/17/read-the-lost-metal-by-brandon-sanderson-chapters-ten-and-eleven/',
+  '10/24/read-the-lost-metal-by-brandon-sanderson-chapters-twelve-and-thirteen/'
 ]
 
 episode = 1

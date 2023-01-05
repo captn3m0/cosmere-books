@@ -15,7 +15,10 @@ links = [
   '10/03/read-the-lost-metal-by-brandon-sanderson-chapters-5-8/',
   '10/10/read-the-lost-metal-by-brandon-sanderson-chapter-nine/',
   '10/17/read-the-lost-metal-by-brandon-sanderson-chapters-ten-and-eleven/',
-  '10/24/read-the-lost-metal-by-brandon-sanderson-chapters-twelve-and-thirteen/'
+  '10/24/read-the-lost-metal-by-brandon-sanderson-chapters-twelve-and-thirteen/',
+  '10/31/read-the-lost-metal-by-brandon-sanderson-chapters-fourteen-and-fifteen/',
+  '11/07/read-the-lost-metal-by-brandon-sanderson-chapters-sixteen-through-eighteen/',
+  '11/14/read-the-lost-metal-by-brandon-sanderson-chapter-nineteen/',
 ]
 
 episode = 1

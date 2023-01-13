@@ -2,10 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     humanize (2.5.1)
-    nokogiri (1.13.10-x86_64-linux)
+    nokogiri (1.14.0-x86_64-linux)
       racc (~> 1.4)
     paru (1.0.3)
-    racc (1.6.1)
+    racc (1.6.2)
 
 PLATFORMS
   x86_64-linux

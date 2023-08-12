@@ -4,7 +4,7 @@ GEM
     humanize (2.5.1)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
-    paru (1.0.3)
+    paru (1.1.2)
     racc (1.7.1)
 
 PLATFORMS

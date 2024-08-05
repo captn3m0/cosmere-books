@@ -1,8 +1,23 @@
 version: 2
 updates:
-- package-ecosystem: bundler
-  directory: "/"
-  schedule:
-    interval: daily
-    time: "23:30"
-  open-pull-requests-limit: 99
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: weekly
+      time: "04:00"
+      timezone: Asia/Calcutta
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      time: "04:00"
+      interval: weekly
+      timezone: Asia/Calcutta
+  - package-ecosystem: "bundler"
+    vendor: true
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "weekly"

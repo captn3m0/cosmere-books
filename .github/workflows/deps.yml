@@ -1,0 +1,29 @@
+# Note that this is a low security repo
+# since the builds only impact the website
+# and we do not have any releases
+name: Auto Merge Dependency Updates
+on: pull_request
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  dependabot:
+    runs-on: ubuntu-latest
+    if: ${{ github.actor == 'dependabot[bot]' }}
+    steps:
+      - name: Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@v2.2.0
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+      - uses: actions/checkout@v4
+        name: Clone self repository
+        with:
+          ref: ${{ github.head_ref }}
+          submodules: true
+      - name: Enable auto-merge for Dependabot PRs for release data
+        run: gh pr merge --auto --rebase "$PR_URL"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

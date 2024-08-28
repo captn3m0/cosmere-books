@@ -6,6 +6,7 @@ Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere
 
 **Books**
 
+1.  Wind and Truth (being serialized till Chapter 30, In Progress)
 1.  Rhythm of War (Serialized till Chapter 18) (with Annotations and Illustrations)
 1.  Oathbringer (Serialized till Chapter 32)
 1.  Warbreaker Prime: Mythwalker
@@ -59,15 +60,29 @@ As an example, you'd like to get a ebook for Rhythm of War, run the following co
 
 For directions specific to your OS, see above.
 
+## Wind and Truth
+
+> Reactor is serializing the new book from now until its release date on
+December 6, 2024. A new installment will go live every Monday at 11 AM ET,
+along with read-along commentary from Stormlight beta readers and Cosmere
+experts Lyndsey Luther, Drew McCaffrey, and Paige Vest.
+
 ## Rhythm of War
 
->The chapter-by-chapter serialization of Rhythm of War, Brandon Sanderson’s fourth volume in The Stormlight Archive series. New chapters go live every Tuesday up to the November 17, 2020 release date.
+>The chapter-by-chapter serialization of Rhythm of War, Brandon Sanderson’s
+ fourth volume in The Stormlight Archive series. New chapters go live every
+ Tuesday up to the November 17, 2020 release date.
 
 This supports the annotations that Brandon is publishing on Reddit along with [3 illustrations from Part 1](https://www.17thshard.com/forum/topic/92967-some-new-illustrations-from-row/). This covers the entire Part 1 of the book.
 
 ## Oathbringer
 
-Tor.com is published Oathbringer in serialized form till Chapter 32. This script downloads all of these posts and converts them into a publishable format, including epub, mobi, pdf and html. You can find the tor.com announcement at https://www.tor.com/2017/08/15/brandon-sanderson-oathbringer-serialization-announcement/. This covers the entire Part 1 of the book.
+Tor.com is published Oathbringer in serialized form till Chapter 32. This
+script downloads all of these posts and converts them into a publishable
+format, including epub, mobi, pdf and html. You can find the tor.com
+announcement at
+https://www.tor.com/2017/08/15/brandon-sanderson-oathbringer-serialization-announcement/.
+This covers the entire Part 1 of the book.
 
 ## Way of Kings Reread
 

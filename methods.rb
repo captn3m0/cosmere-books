@@ -58,13 +58,22 @@ def gen_epub(name, format)
   end
 end
 
-def gen_mobi(name, format)
-  if command?('ebook-convert') && format_match(format, :mobi)
-    # Convert epub to a mobi
-    `ebook-convert books/#{name}.epub books/#{name}.mobi`
-    puts '[mobi] Generated MOBI file'
-  else
-    puts "[error] Can't generate MOBI without ebook-convert"
+def gen_pdf_pandoc(name, format)
+  return unless format_match(format, :pdf)
+
+  begin
+    require 'paru/pandoc'
+    Paru::Pandoc.new do
+      from 'html'
+      to 'pdf'
+      pdf_engine 'xelatex'
+      metadata title: name
+      data_dir Dir.pwd
+      output "books/#{name}.pdf"
+    end.convert File.read("books/#{name}_pdf.html")
+    puts '[pdf] Generated PDF file'
+  rescue LoadError
+    puts "[error] Can't generate PDF without paru"
   end
 end
 
@@ -77,18 +86,13 @@ rescue Errno::ENOENT
 end
 
 def gen_pdf(name, format)
-  if commands?(%w[pandoc convert wkhtmltopdf pdftk]) && format_match(format, :pdf)
+  if commands?(%w[pandoc convert xhtml2pdf pdftk]) && format_match(format, :pdf)
     # Generate PDF as well
     # First, lets make a better css version of the html
     `pandoc books/#{name}.html -s -c ../epub.css  -o books/#{name}_pdf.html`
     puts '[pdf] Generated html for pdf'
 
-    # Print the pdf_html file to pdf
-    if inside_docker?
-      `xvfb-run wkhtmltopdf books/#{name}_pdf.html books/#{name}-nocover.pdf`
-    else
-      `wkhtmltopdf books/#{name}_pdf.html books/#{name}-nocover.pdf`
-    end
+    `xhtml2pdf books/#{name}_pdf.html books/#{name}-nocover.pdf`
 
     puts '[pdf] Generated PDF without cover'
 
@@ -102,6 +106,5 @@ end
 
 def generate(name, format = :all)
   gen_epub(name, format)
-  gen_mobi(name, format)
   gen_pdf(name, format)
 end

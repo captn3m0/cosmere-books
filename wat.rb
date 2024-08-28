@@ -31,8 +31,12 @@ end
 
 # Now we have all the files
 html = ''
+audiobook_links = []
 (1..(links.length)).each do |i|
   page = Nokogiri::HTML(open("wat/#{i}.html")).css('article-content')
+  page.css('a[href^="https://soundcloud.com/macaudio-2/"]').each do |sc_url|
+    audiobook_links << sc_url['href']
+  end
   start = ending = false
   page.children.each do |e|
     if e.name == 'h3'
@@ -51,5 +55,8 @@ end
 
 File.open('books/wat.html', 'w') { |file| file.write(html) }
 puts '[html] Generated HTML file'
+
+File.open('books/wat-audio.txt', 'w') { |file| file.write(audiobook_links.join("\n")) }
+puts '[html] Generated Audiobook Listing'
 
 generate('wat', :all)

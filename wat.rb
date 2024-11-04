@@ -23,6 +23,7 @@ links = [
   'chapters-21-and-22/',
   'chapters-23-and-24/',
   'chapters-25-and-26/',
+  'chapters-27-and-28/',
 ]
 
 # Automatically adds all recent chapters

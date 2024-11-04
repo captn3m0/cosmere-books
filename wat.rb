@@ -18,6 +18,11 @@ links = [
   'chapters-12-and-13/',
   'interludes-1-and-2/',
   'chapters-14-and-15/',
+  'chapters-16-17-and-18/',
+  'chapters-19-and-20/',
+  'chapters-21-and-22/',
+  'chapters-23-and-24/',
+  'chapters-25-and-26/',
 ]
 
 # Automatically adds all recent chapters

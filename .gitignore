@@ -16,3 +16,5 @@ wat/*.html
 wat/*.opus
 wat/*.json
 !books/wat-audio.txt
+wat.epub
+wat/

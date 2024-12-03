@@ -1,0 +1,11 @@
+name: myhtml
+version: 1.5.8
+
+authors:
+  - Konstantin Makarchev <kostya27@gmail.com>
+
+scripts:
+  postinstall: cd src/ext && make package
+
+crystal: ">= 1.0.0, < 2.0.0"
+license: MIT

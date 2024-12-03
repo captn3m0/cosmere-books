@@ -1,0 +1,5 @@
+.shards
+lib
+*.html
+shard.lock
+.bundle

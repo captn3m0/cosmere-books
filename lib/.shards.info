@@ -1,0 +1,9 @@
+---
+version: 1.0
+shards:
+  myhtml:
+    git: https://github.com/kostya/myhtml.git
+    version: 1.5.8
+  lexbor:
+    git: https://github.com/kostya/lexbor.git
+    version: 3.2.0

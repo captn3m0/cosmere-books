@@ -1,0 +1,19 @@
+name: cosmere-books
+version: 0.1.0
+
+authors:
+  - Nemo <commits@captnemo.in>
+
+targets:
+  cosmere-books:
+    main: src/cosmere-books.cr
+
+crystal: '>= 1.14.0'
+
+license: MIT
+
+dependencies:
+  myhtml:
+    github: kostya/myhtml
+  lexbor:
+    github: kostya/lexbor

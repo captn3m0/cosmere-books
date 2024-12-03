@@ -1,0 +1,21 @@
+name: bench-html-parsers
+version: 0.1.0
+
+authors:
+  - Konstantin Makarchev <kostya27@gmail.com>
+
+dependencies:
+  myhtml:
+    github: kostya/myhtml
+  lexbor:
+    github: kostya/lexbor
+  gumbo-crystal:
+    github: blocknotes/gumbo-crystal
+    # sudo pacman -S community/gumbo-parser
+    # sudo apt install libgumbo-dev
+  crystagiri:
+    github: madeindjs/crystagiri
+  html5:
+    github: naqvis/crystal-html5
+
+license: MIT

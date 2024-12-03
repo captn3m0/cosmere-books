@@ -24,6 +24,10 @@ links = [
   'chapters-23-and-24/',
   'chapters-25-and-26/',
   'chapters-27-and-28/',
+  'chapters-29-and-30/',
+  'chapters-31-and-32/',
+  'chapter-33/',
+  'interludes-3-and-4/'
 ]
 
 # Automatically adds all recent chapters
@@ -51,6 +55,10 @@ audiobook_links = []
   page.children.each do |e|
     if e.name == 'h3'
       e.name = 'h1'
+      start = true
+    end
+    # Chapter Arch heading images
+    if e.name == 'figure'&& e['class'].include?('wp-block-image')
       start = true
     end
 

@@ -150,6 +150,8 @@ Below description from [Sanderson's website](https://www.brandonsanderson.com/wa
 
 In progress, only Chapter 1 so far.
 
+There is also experimental support for adding Sanderson's annotations to a few books (currently supported: Elantris). For more, see [HACKING.md](HACKING.md).
+
 ## Extra
 
 If you'd like to see any other books covered here, please [create an issue](https://github.com/captn3m0/cosmere-books/issues/new), or reach out to me: <https://captnemo.in/contact/>

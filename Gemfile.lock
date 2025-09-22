@@ -7,7 +7,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.9-x86_64-linux-gnu)
       racc (~> 1.4)
-    paru (1.5.0)
+    paru (1.5.1)
       csv (~> 3.3)
     racc (1.8.1)
 

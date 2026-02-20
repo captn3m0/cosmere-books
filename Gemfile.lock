@@ -3,9 +3,9 @@ GEM
   specs:
     csv (3.3.5)
     humanize (3.1.0)
-    nokogiri (1.19.0-aarch64-linux-gnu)
+    nokogiri (1.19.1-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.19.0-x86_64-linux-gnu)
+    nokogiri (1.19.1-x86_64-linux-gnu)
       racc (~> 1.4)
     paru (1.5.2)
       csv (~> 3.3)

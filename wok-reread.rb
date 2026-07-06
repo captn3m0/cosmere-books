@@ -84,8 +84,8 @@ end
 html = ''
 for i in 1..(links.length)
   complete_html = Nokogiri::HTML(open("wok/#{i}.html"))
-  page = complete_html.css('.entry-content')
-  title = complete_html.css('.entry-title>a').inner_html
+  page = complete_html.css('article-content')
+  title = complete_html.css('h1').inner_html
   # Removes all UK cover images
   page.css('.alignleft').remove
   ending = false

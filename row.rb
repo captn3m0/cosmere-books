@@ -45,7 +45,7 @@ end
 # Now we have all the files
 html = ''
 (1..(links.length)).each do |i|
-  page = Nokogiri::HTML(open("row/#{i}.html")).css('.entry-content')
+  page = Nokogiri::HTML(open("row/#{i}.html")).css('article-content')
   start = ending = false
   page.children.each do |e|
     if e.name == 'h3'

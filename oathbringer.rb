@@ -44,7 +44,7 @@ end
 # Now we have all the files
 html = ''
 for i in 1..(links.length)
-  page = Nokogiri::HTML(open("oathbringer/#{i}.html")).css('.entry-content')
+  page = Nokogiri::HTML(open("oathbringer/#{i}.html")).css('article-content')
   start = ending = false
   page.children.each do |e|
     if e.name == 'h3'

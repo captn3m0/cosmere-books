@@ -12,6 +12,7 @@ Scripts to generate books from the [Cosmere](https://coppermind.net/wiki/Cosmere
 1.  Warbreaker Prime: Mythwalker
 1.  Skyward (Serialized till Chapter 15)
 1.  The Lost Metal (To be serialized till Chapter 9, In Progress)
+1.  The Fires of December (Sample Chapters 1-8, PDF and M4B audiobook)
 
 **Short Stories**
 
@@ -50,6 +51,7 @@ skyward
 wok-reread
 wor-reread
 lost-metal
+fires-of-december
 ```
 
 If none is passed, all books will be generated. The entire build (for all books combined) roughly takes 15 minutes on a single core system (excluding the Docker pull). Generating the `defending-elysium` ebook requires generating all ebooks currently.
@@ -149,6 +151,16 @@ Below description from [Sanderson's website](https://www.brandonsanderson.com/wa
 > Tor.com is serializing The Lost Metal from now until its release on November 15. New chapters will go live every Monday at 12pm ET.
 
 In progress, only Chapter 1 so far.
+
+## The Fires of December
+
+Dragonsteel posted 8 sample chapters as PDFs, with an audiobook on YouTube.
+The PDFs are joined into `books/fires-of-december.pdf`. The audio is joined
+into `books/fires-of-december.m4b` after dropping Brandon's intro and outro.
+Whisper finds the opening chapter heading and the closing words of each PDF.
+
+Needs `yt-dlp`, `ffmpeg`, `uv`, `pdftotext`, `pdftk` and imagemagick, which the
+Docker image does not ship. Run it locally with `ruby fires-of-december.rb`.
 
 ## Extra
 

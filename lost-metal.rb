@@ -37,7 +37,7 @@ end
 # Now we have all the files
 html = ''
 for i in 1..(links.length)
-  page = Nokogiri::HTML(open("lost-metal/#{i}.html")).css('.entry-content')
+  page = Nokogiri::HTML(open("lost-metal/#{i}.html")).css('article-content')
   start = ending = false
   page.children.each do |e|
     if ['h1', 'h2', 'h3', 'h4', 'hr'].include? e.name
